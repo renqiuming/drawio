@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-21T15:53:27.100Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="4huQKksL0Ovu_DGnEYHd" version="13.3.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-06-21T15:53:45.862Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="v5je1lqLN7YdsrkZAaqz" version="13.2.6" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="应用架构">
     <mxGraphModel dx="1152" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -702,7 +702,7 @@
             <mxPoint x="907" y="-750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tMMKQgv83k__X11wtreu-19" value="1.1 权益查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tMMKQgv83k__X11wtreu-18">
+        <mxCell id="tMMKQgv83k__X11wtreu-19" value="1.1 权益查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="tMMKQgv83k__X11wtreu-18">
           <mxGeometry x="0.1526" relative="1" as="geometry">
             <mxPoint x="67.33" y="20.45" as="offset" />
           </mxGeometry>
@@ -713,7 +713,7 @@
             <mxPoint x="517" y="-870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tMMKQgv83k__X11wtreu-21" value="1.2 发放规则预判" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tMMKQgv83k__X11wtreu-20">
+        <mxCell id="tMMKQgv83k__X11wtreu-21" value="1.2 发放规则预判" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="tMMKQgv83k__X11wtreu-20">
           <mxGeometry x="0.1259" y="4" relative="1" as="geometry">
             <mxPoint y="-4.75" as="offset" />
           </mxGeometry>
@@ -724,7 +724,7 @@
             <mxPoint x="917" y="-780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tMMKQgv83k__X11wtreu-23" value="2.1 权益发放" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tMMKQgv83k__X11wtreu-22">
+        <mxCell id="tMMKQgv83k__X11wtreu-23" value="2.1 权益发放" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="tMMKQgv83k__X11wtreu-22">
           <mxGeometry x="0.3475" y="4" relative="1" as="geometry">
             <mxPoint x="-28.54" y="4.73" as="offset" />
           </mxGeometry>
@@ -735,7 +735,7 @@
             <mxPoint x="316.9999999999998" y="-655" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tMMKQgv83k__X11wtreu-25" value="2.2 实际权益发放" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tMMKQgv83k__X11wtreu-24">
+        <mxCell id="tMMKQgv83k__X11wtreu-25" value="2.2 实际权益发放" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="tMMKQgv83k__X11wtreu-24">
           <mxGeometry x="0.3475" y="4" relative="1" as="geometry">
             <mxPoint x="-58.43" y="3.75" as="offset" />
           </mxGeometry>
@@ -746,7 +746,7 @@
             <mxPoint x="1197" y="-758" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tMMKQgv83k__X11wtreu-27" value="2.3 最终权益发放" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tMMKQgv83k__X11wtreu-26">
+        <mxCell id="tMMKQgv83k__X11wtreu-27" value="2.3 最终权益发放" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="tMMKQgv83k__X11wtreu-26">
           <mxGeometry x="0.3475" y="4" relative="1" as="geometry">
             <mxPoint x="-7.65" y="10.51" as="offset" />
           </mxGeometry>
@@ -757,7 +757,7 @@
             <mxPoint x="717" y="-560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tMMKQgv83k__X11wtreu-29" value="2.3 最终权益发放" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tMMKQgv83k__X11wtreu-28">
+        <mxCell id="tMMKQgv83k__X11wtreu-29" value="2.3 最终权益发放" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="tMMKQgv83k__X11wtreu-28">
           <mxGeometry x="0.3475" y="4" relative="1" as="geometry">
             <mxPoint x="-27.76" as="offset" />
           </mxGeometry>
@@ -768,7 +768,7 @@
             <mxPoint x="1350" y="-842" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tMMKQgv83k__X11wtreu-31" value="2.3 最终权益发放" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tMMKQgv83k__X11wtreu-30">
+        <mxCell id="tMMKQgv83k__X11wtreu-31" value="2.3 最终权益发放" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="tMMKQgv83k__X11wtreu-30">
           <mxGeometry x="0.3475" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -785,7 +785,7 @@
             <mxPoint x="1197" y="-570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tMMKQgv83k__X11wtreu-34" value="3.1 优惠使用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tMMKQgv83k__X11wtreu-33">
+        <mxCell id="tMMKQgv83k__X11wtreu-34" value="3.1 优惠使用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="tMMKQgv83k__X11wtreu-33">
           <mxGeometry x="-0.5396" y="2" relative="1" as="geometry">
             <mxPoint y="-11.44" as="offset" />
           </mxGeometry>
@@ -796,7 +796,7 @@
             <mxPoint x="1203.8899999999999" y="-560.1100000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tMMKQgv83k__X11wtreu-36" value="3.2 校验权益使用规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tMMKQgv83k__X11wtreu-35">
+        <mxCell id="tMMKQgv83k__X11wtreu-36" value="3.2 校验权益使用规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="tMMKQgv83k__X11wtreu-35">
           <mxGeometry x="-0.5396" y="2" relative="1" as="geometry">
             <mxPoint x="19.49" y="-3.6799999999999997" as="offset" />
           </mxGeometry>
@@ -807,7 +807,7 @@
             <mxPoint x="1099.9999999999998" y="-570.1100000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tMMKQgv83k__X11wtreu-38" value="3.3 权益核销" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tMMKQgv83k__X11wtreu-37">
+        <mxCell id="tMMKQgv83k__X11wtreu-38" value="3.3 权益核销" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="tMMKQgv83k__X11wtreu-37">
           <mxGeometry x="-0.5396" y="2" relative="1" as="geometry">
             <mxPoint x="-36.89" y="61.36" as="offset" />
           </mxGeometry>
@@ -818,7 +818,7 @@
             <mxPoint x="921.39" y="-609" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tMMKQgv83k__X11wtreu-40" value="3.4 最终权益核销" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tMMKQgv83k__X11wtreu-39">
+        <mxCell id="tMMKQgv83k__X11wtreu-40" value="3.4 最终权益核销" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="tMMKQgv83k__X11wtreu-39">
           <mxGeometry x="-0.5396" y="2" relative="1" as="geometry">
             <mxPoint x="-32" y="82.86" as="offset" />
           </mxGeometry>
@@ -829,7 +829,7 @@
             <mxPoint x="1117" y="-610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tMMKQgv83k__X11wtreu-42" value="3.4最终权益核销" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tMMKQgv83k__X11wtreu-41">
+        <mxCell id="tMMKQgv83k__X11wtreu-42" value="3.4最终权益核销" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="tMMKQgv83k__X11wtreu-41">
           <mxGeometry x="0.2795" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -840,7 +840,7 @@
             <mxPoint x="950" y="-570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tMMKQgv83k__X11wtreu-44" value="3.4 最终权益核销" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tMMKQgv83k__X11wtreu-43">
+        <mxCell id="tMMKQgv83k__X11wtreu-44" value="3.4 最终权益核销" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="tMMKQgv83k__X11wtreu-43">
           <mxGeometry x="0.4945" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
