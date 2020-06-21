@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-21T13:52:45.139Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="mkBYxcVKNfg4Bv-y_dcc" version="13.2.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-06-21T14:51:07.914Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="xyzgAhNxfBM3vu4i8mpf" version="13.2.6" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="应用架构">
     <mxGraphModel dx="1152" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -638,47 +638,45 @@
     
   </diagram>
   <diagram id="SlGiDcC_5EFLvLbteVc1" name="权益中心">
-    <mxGraphModel dx="960" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1355" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="nzMVDWFstQ6U59dOs8_J-0" />
         <mxCell id="nzMVDWFstQ6U59dOs8_J-1" parent="nzMVDWFstQ6U59dOs8_J-0" />
-        <mxCell id="rZ0NyrOW776TgyS1eCQN-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
-          <mxGeometry x="30" y="70" width="1520" height="910" as="geometry" />
+        <mxCell id="qRvRK28ElRnI5i7Tbd72-20" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
+          <mxGeometry x="1270" y="60" width="250" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="qRvRK28ElRnI5i7Tbd72-0" value="fliggyright(权益平台)&lt;br&gt;&lt;br&gt;1.权益封装&lt;br&gt;2.权益表达&lt;br&gt;3.权益接入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
-          <mxGeometry x="300" y="160" width="250" height="110" as="geometry" />
+        <mxCell id="qRvRK28ElRnI5i7Tbd72-15" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
+          <mxGeometry x="13" y="350" width="1197" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="rZ0NyrOW776TgyS1eCQN-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
+          <mxGeometry x="13" y="60" width="1197" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="qRvRK28ElRnI5i7Tbd72-0" value="&lt;font style=&quot;font-size: 18px&quot;&gt;fliggyright(权益平台)&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.权益管理，支持父子权益&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.权益素材管理&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3.权益投放规则管理，统一权益透出接口&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;4.权益关联二方/三方优惠、资产系统，对接发放、核销接口&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;5.维护用户权益资产关联关系&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
+          <mxGeometry x="570" y="113" width="370" height="129" as="geometry" />
         </mxCell>
         <mxCell id="qRvRK28ElRnI5i7Tbd72-1" value="飞猪权益中心" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;strokeColor=none;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
-          <mxGeometry x="50" y="50" width="150" height="30" as="geometry" />
+          <mxGeometry x="50" y="50" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qRvRK28ElRnI5i7Tbd72-2" value="tripbp(发奖平台)&lt;br&gt;&lt;br&gt;1.配置发放权益规则&lt;br&gt;2.承接发放流量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE599;strokeColor=none;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
-          <mxGeometry x="140" y="380" width="160" height="90" as="geometry" />
+        <mxCell id="qRvRK28ElRnI5i7Tbd72-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;tripbp(发奖平台)&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.配置发放权益规则&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.权益发放任务、接口&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE599;strokeColor=none;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
+          <mxGeometry x="150" y="111" width="280" height="131" as="geometry" />
         </mxCell>
-        <mxCell id="qRvRK28ElRnI5i7Tbd72-3" value="fp(资金中台)&lt;br&gt;&lt;br&gt;1.发放里程、天猫积分&lt;br&gt;2.保存用户里程、积分资产" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;strokeColor=none;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
-          <mxGeometry x="870" y="720" width="220" height="120" as="geometry" />
+        <mxCell id="qRvRK28ElRnI5i7Tbd72-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;fp(资金中台)&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.发放里程、天猫积分&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.保存用户里程、积分资产&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;strokeColor=none;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
+          <mxGeometry x="920" y="430" width="230" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="qRvRK28ElRnI5i7Tbd72-4" value="fliggypromotion（优惠平台）&lt;br&gt;&lt;br&gt;1." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
-          <mxGeometry x="1290" y="160" width="190" height="110" as="geometry" />
+        <mxCell id="qRvRK28ElRnI5i7Tbd72-5" value="&lt;font style=&quot;font-size: 18px&quot;&gt;ump(优惠中台)&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.计算优惠&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.使用优惠券&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=none;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
+          <mxGeometry x="170" y="430" width="230" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="qRvRK28ElRnI5i7Tbd72-5" value="ump(优惠中台)&lt;br&gt;&lt;br&gt;1.发放优惠券&lt;br&gt;2.计算优惠" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=none;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
-          <mxGeometry x="520" y="570" width="190" height="95" as="geometry" />
+        <mxCell id="qRvRK28ElRnI5i7Tbd72-13" value="&lt;font style=&quot;font-size: 18px&quot;&gt;promotion-center(权益中台)&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.发放优惠券、&lt;/span&gt;&lt;span&gt;发放部分权益（龙腾）&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.维护用户优惠券、权益资产关联&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CDA2BE;strokeColor=none;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
+          <mxGeometry x="530" y="430" width="260" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="qRvRK28ElRnI5i7Tbd72-10" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nzMVDWFstQ6U59dOs8_J-1" source="qRvRK28ElRnI5i7Tbd72-0" target="qRvRK28ElRnI5i7Tbd72-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="310" as="sourcePoint" />
-            <mxPoint x="460" y="260" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="qRvRK28ElRnI5i7Tbd72-14" value="&lt;font style=&quot;font-size: 18px&quot;&gt;第三方权益系统&lt;br&gt;&lt;/font&gt;&lt;br&gt;1.星巴克、支付宝汇率等发放" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#67AB9F;strokeColor=none;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
+          <mxGeometry x="1300" y="111" width="190" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="qRvRK28ElRnI5i7Tbd72-12" value="预判发放" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qRvRK28ElRnI5i7Tbd72-10">
-          <mxGeometry x="-0.0923" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="qRvRK28ElRnI5i7Tbd72-17" value="中台权益中心" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;strokeColor=none;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
+          <mxGeometry x="50" y="340" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qRvRK28ElRnI5i7Tbd72-13" value="promotion-center(权益中心)&lt;br&gt;&lt;br&gt;1.保存用户优惠券资产&lt;br&gt;2.发放部分权益（龙腾）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CDA2BE;strokeColor=none;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
-          <mxGeometry x="130" y="720" width="190" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="qRvRK28ElRnI5i7Tbd72-14" value="第三方权益系统&lt;br&gt;&lt;br&gt;1.星巴克、支付宝汇率等发放&lt;br&gt;2." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#67AB9F;strokeColor=none;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
-          <mxGeometry x="1200" y="570" width="190" height="95" as="geometry" />
+        <mxCell id="qRvRK28ElRnI5i7Tbd72-21" value="第三方权益中心" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;strokeColor=none;" vertex="1" parent="nzMVDWFstQ6U59dOs8_J-1">
+          <mxGeometry x="1290" y="50" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
