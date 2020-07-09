@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-09T13:08:12.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="NVEFKAMlJKaGXUF-pd7N" version="13.4.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-07-09T15:45:28.143Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="Cf2kxjcaE9h_2Gu5drLP" version="13.4.0" type="github" pages="4">
   <diagram name="会员卡ER图" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1654" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -51,7 +51,7 @@
         <mxCell id="8GvcptEVgj3s6sQUt0Vm-11" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;material（素材）&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;right_id (权益id)&lt;br&gt;material_id (素材id)&lt;br&gt;template_id (素材模板id)&lt;br&gt;locator_code (资源位code )&lt;span style=&quot;background-color: rgb(249 , 249 , 249)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; style=&quot;font-size: 1em ; width: 330px&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;ext_config（扩展属性）&lt;span style=&quot;background-color: rgb(249 , 249 , 249)&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="190" width="210" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="8GvcptEVgj3s6sQUt0Vm-12" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;right_outer_config（权益外部提供方关联）&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;right_id (权益id)&lt;br&gt;provider&amp;nbsp;(权益提供方：&lt;font color=&quot;#ff6666&quot;&gt;火车票退改/龙腾贵宾厅/菲住卡&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;/&amp;nbsp;UMP券/特殊规则发放活动&lt;/font&gt;)&lt;br&gt;right_outer_config&amp;nbsp; (提供方配置，id等)&lt;br&gt;&lt;span style=&quot;color: rgb(89 , 89 , 89) ; font-family: , &amp;#34;consolas&amp;#34; , &amp;#34;liberation mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;courier&amp;#34; , monospace ; font-size: 13px ; letter-spacing: 0.7px ; background-color: rgb(249 , 249 , 249)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; style=&quot;font-size: 1em ; width: 330px&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color: rgb(89 , 89 , 89) ; font-family: , &amp;#34;consolas&amp;#34; , &amp;#34;liberation mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;courier&amp;#34; , monospace ; font-size: 13px ; letter-spacing: 0.7px ; background-color: rgb(249 , 249 , 249)&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+        <mxCell id="8GvcptEVgj3s6sQUt0Vm-12" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;right_outer_config（权益外部提供方关联）&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;right_id (权益id)&lt;br&gt;provider&amp;nbsp;(权益提供方：&lt;font color=&quot;#ff6666&quot;&gt;虚拟积分凭证/&amp;nbsp;UMP券/特殊规则发放活动&lt;/font&gt;)&lt;br&gt;right_outer_config&amp;nbsp; (提供方配置，id等)&lt;br&gt;&lt;span style=&quot;color: rgb(89 , 89 , 89) ; font-family: , &amp;#34;consolas&amp;#34; , &amp;#34;liberation mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;courier&amp;#34; , monospace ; font-size: 13px ; letter-spacing: 0.7px ; background-color: rgb(249 , 249 , 249)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;0&quot; style=&quot;font-size: 1em ; width: 330px&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;span style=&quot;color: rgb(89 , 89 , 89) ; font-family: , &amp;#34;consolas&amp;#34; , &amp;#34;liberation mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;courier&amp;#34; , monospace ; font-size: 13px ; letter-spacing: 0.7px ; background-color: rgb(249 , 249 , 249)&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="10" width="330" height="110" as="geometry" />
         </mxCell>
         <mxCell id="8GvcptEVgj3s6sQUt0Vm-13" value="Relation" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.533;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8GvcptEVgj3s6sQUt0Vm-12" target="YY1izlTtlxkpwMXu7x4F-1">
@@ -106,12 +106,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MaNHfLUQFuiHubp2XSmd" name="会员创建流程">
-    <mxGraphModel dx="1158" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1985" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="zDAGFs8Ml1KUlhRKQY1Y-0" />
         <mxCell id="zDAGFs8Ml1KUlhRKQY1Y-1" parent="zDAGFs8Ml1KUlhRKQY1Y-0" />
+        <mxCell id="5GAHdNdbGNsGUFHKtEqf-7" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#67AB9F;fillColor=none;align=center;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
+          <mxGeometry x="200" y="10" width="620" height="640" as="geometry" />
+        </mxCell>
         <mxCell id="5GAHdNdbGNsGUFHKtEqf-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#67AB9F;fillColor=none;align=center;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
-          <mxGeometry y="10" width="200" height="550" as="geometry" />
+          <mxGeometry x="-180" y="10" width="380" height="640" as="geometry" />
         </mxCell>
         <mxCell id="j21XS1cx1xSZzrQIwdCX-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1" source="j21XS1cx1xSZzrQIwdCX-1" target="j21XS1cx1xSZzrQIwdCX-33">
           <mxGeometry relative="1" as="geometry" />
@@ -192,35 +195,39 @@
         <mxCell id="j21XS1cx1xSZzrQIwdCX-35" value="&lt;span&gt;设置父权益和子权益素材&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
           <mxGeometry x="480" y="440" width="150" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="CDXi5bAOmxi4IHqocDyM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1" source="j21XS1cx1xSZzrQIwdCX-38" target="j21XS1cx1xSZzrQIwdCX-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CDXi5bAOmxi4IHqocDyM-4" value="ump券创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CDXi5bAOmxi4IHqocDyM-3">
+          <mxGeometry x="0.2" y="3" relative="1" as="geometry">
+            <mxPoint x="37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CDXi5bAOmxi4IHqocDyM-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1" source="j21XS1cx1xSZzrQIwdCX-38" target="j21XS1cx1xSZzrQIwdCX-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="j21XS1cx1xSZzrQIwdCX-38" value="运营" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
-          <mxGeometry x="80" y="60" width="20" height="30" as="geometry" />
+          <mxGeometry x="-65" y="60" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tDlYd8UlZ9ifg0dUngRx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1" target="tDlYd8UlZ9ifg0dUngRx-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="95" y="390" as="sourcePoint" />
+            <mxPoint x="-60" y="380" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-60" y="310" />
+              <mxPoint x="-60" y="310" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tDlYd8UlZ9ifg0dUngRx-6" value="创建按月领取规则玩法活动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tDlYd8UlZ9ifg0dUngRx-5">
+        <mxCell id="tDlYd8UlZ9ifg0dUngRx-6" value="创建特殊领取规则玩法活动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tDlYd8UlZ9ifg0dUngRx-5">
           <mxGeometry x="-0.44" y="2" relative="1" as="geometry">
-            <mxPoint x="-2" y="12" as="offset" />
+            <mxPoint x="92" y="-29" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j21XS1cx1xSZzrQIwdCX-39" value="优惠系统" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#E6D0DE;align=center;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
-          <mxGeometry x="10" y="200" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="j21XS1cx1xSZzrQIwdCX-40" value="" style="endArrow=classic;html=1;entryX=0.465;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1" target="j21XS1cx1xSZzrQIwdCX-39">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="91" y="110" as="sourcePoint" />
-            <mxPoint x="-30" y="200" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="j21XS1cx1xSZzrQIwdCX-41" value="ump券创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="j21XS1cx1xSZzrQIwdCX-40">
-          <mxGeometry x="-0.3627" y="-1" relative="1" as="geometry">
-            <mxPoint y="11.03" as="offset" />
-          </mxGeometry>
+          <mxGeometry x="-140" y="140" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tDlYd8UlZ9ifg0dUngRx-4" value="发放系统（玩法）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#D5E8D4;align=center;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
-          <mxGeometry x="10" y="480" width="170" height="60" as="geometry" />
+          <mxGeometry x="-140" y="350" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tDlYd8UlZ9ifg0dUngRx-14" value="发放系统（玩法）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#D5E8D4;align=center;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
           <mxGeometry x="905" y="315" width="170" height="60" as="geometry" />
@@ -236,8 +243,8 @@
             <mxPoint x="6.75" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5GAHdNdbGNsGUFHKtEqf-2" value="权益创建依赖：如果子权益是券" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
-          <mxGeometry x="10" y="20" width="180" height="20" as="geometry" />
+        <mxCell id="5GAHdNdbGNsGUFHKtEqf-2" value="权益创建依赖：如果子权益是券,先创建券模板，权益关联模板id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
+          <mxGeometry x="-175" y="15" width="365" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5GAHdNdbGNsGUFHKtEqf-3" value="运营" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
           <mxGeometry x="322" y="60" width="20" height="30" as="geometry" />
@@ -246,22 +253,40 @@
           <mxGeometry x="530" y="60" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5GAHdNdbGNsGUFHKtEqf-5" value="运营" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
-          <mxGeometry x="85" y="340" width="20" height="30" as="geometry" />
+          <mxGeometry x="-65" y="260" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5GAHdNdbGNsGUFHKtEqf-6" value="权益创建依赖：如果子权益是特殊发放规则类型，如每月发" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
-          <mxGeometry x="10" y="290" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="5GAHdNdbGNsGUFHKtEqf-7" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#67AB9F;fillColor=none;align=center;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
-          <mxGeometry x="200" y="10" width="620" height="550" as="geometry" />
+        <mxCell id="5GAHdNdbGNsGUFHKtEqf-6" value="权益创建依赖：如果子权益是特殊发放规则类型，如每月发，先创建玩法活动关联奖品，权益关联玩法活动id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
+          <mxGeometry x="-175" y="205" width="355" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5GAHdNdbGNsGUFHKtEqf-8" value="权益创建" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
           <mxGeometry x="200" y="20" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5GAHdNdbGNsGUFHKtEqf-9" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#67AB9F;fillColor=none;align=center;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
-          <mxGeometry x="820" y="10" width="280" height="550" as="geometry" />
+          <mxGeometry x="820" y="10" width="280" height="640" as="geometry" />
         </mxCell>
         <mxCell id="5GAHdNdbGNsGUFHKtEqf-10" value="权益销售主体创建" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
           <mxGeometry x="820" y="20" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CDXi5bAOmxi4IHqocDyM-6" value="权益创建依赖：如果子权益需要先发凭证，再领取，先创建凭证（虚拟积分id），配置消耗虚拟积分兑换活动（奖品配置权益时设置组合权益id、凭证权益id）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
+          <mxGeometry x="-175" y="420" width="365" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CDXi5bAOmxi4IHqocDyM-17" value="创建虚拟积分" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1" source="CDXi5bAOmxi4IHqocDyM-7" target="CDXi5bAOmxi4IHqocDyM-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CDXi5bAOmxi4IHqocDyM-7" value="运营" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
+          <mxGeometry x="-100" y="480" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CDXi5bAOmxi4IHqocDyM-8" value="发放系统（玩法）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#D5E8D4;align=center;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
+          <mxGeometry x="20" y="570" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CDXi5bAOmxi4IHqocDyM-9" value="互动系统" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#A9C4EB;align=center;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
+          <mxGeometry x="-175" y="570" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CDXi5bAOmxi4IHqocDyM-19" value="创建兑换活动" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1" source="CDXi5bAOmxi4IHqocDyM-18" target="CDXi5bAOmxi4IHqocDyM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CDXi5bAOmxi4IHqocDyM-18" value="运营" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="zDAGFs8Ml1KUlhRKQY1Y-1">
+          <mxGeometry x="95" y="480" width="20" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
