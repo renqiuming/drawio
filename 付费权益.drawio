@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-08T15:45:04.012Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="zZjAaLeE5QTECS7rqMad" version="13.3.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-07-09T04:36:21.784Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="kqYOOYDZXoQmJpHvivvv" version="13.4.0" type="github" pages="3">
   <diagram name="会员卡创建" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="2066" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="776" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,19 +8,33 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R5_IxtRyC83MQlMv-ytm" name="会员卡子权益发放">
+    
     <mxGraphModel dx="2066" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      
       <root>
+        
         <mxCell id="gxIRj8r4BH8aGyPVzCsB-0" />
+        
         <mxCell id="gxIRj8r4BH8aGyPVzCsB-1" parent="gxIRj8r4BH8aGyPVzCsB-0" />
+        
       </root>
+      
     </mxGraphModel>
+    
   </diagram>
   <diagram id="jTUjxg3B5KQgk27oze23" name="会员卡子权益履约">
+    
     <mxGraphModel dx="2066" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      
       <root>
+        
         <mxCell id="s9zLjwahHfYTyhlEVkAR-0" />
+        
         <mxCell id="s9zLjwahHfYTyhlEVkAR-1" parent="s9zLjwahHfYTyhlEVkAR-0" />
+        
       </root>
+      
     </mxGraphModel>
+    
   </diagram>
 </mxfile>
