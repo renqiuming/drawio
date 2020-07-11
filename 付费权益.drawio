@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-11T02:35:42.470Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="LUnXZOMdGGQtYQrcmblm" version="13.4.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-07-11T16:30:08.296Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="QwLoQX-Olso4R4vxOcZp" version="13.4.0" type="github" pages="5">
   <diagram name="会员卡ER图" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="2316" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2314" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -105,7 +105,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MaNHfLUQFuiHubp2XSmd" name="会员创建流程">
-    <mxGraphModel dx="1985" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1984" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="zDAGFs8Ml1KUlhRKQY1Y-0" />
         <mxCell id="zDAGFs8Ml1KUlhRKQY1Y-1" parent="zDAGFs8Ml1KUlhRKQY1Y-0" />
@@ -301,7 +301,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="R5_IxtRyC83MQlMv-ytm" name="会员卡子权益发放">
-    <mxGraphModel dx="1158" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1157" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="gxIRj8r4BH8aGyPVzCsB-0" />
         <mxCell id="gxIRj8r4BH8aGyPVzCsB-1" parent="gxIRj8r4BH8aGyPVzCsB-0" />
@@ -309,10 +309,145 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jTUjxg3B5KQgk27oze23" name="会员卡子权益履约">
-    <mxGraphModel dx="1158" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1157" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="s9zLjwahHfYTyhlEVkAR-0" />
         <mxCell id="s9zLjwahHfYTyhlEVkAR-1" parent="s9zLjwahHfYTyhlEVkAR-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="V0-AOM3KS3OS1tw_c_Cd" name="连续包年">
+    <mxGraphModel dx="1157" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="cm7d25lUCmXhoDQSkLji-0" />
+        <mxCell id="cm7d25lUCmXhoDQSkLji-1" parent="cm7d25lUCmXhoDQSkLji-0" />
+        <mxCell id="gzaPndoabojI9cq-qZE7-1" value="会员" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#67AB9F;fillColor=#A9C4EB;" vertex="1" parent="cm7d25lUCmXhoDQSkLji-1">
+          <mxGeometry x="500" y="65" width="100" height="695" as="geometry" />
+        </mxCell>
+        <mxCell id="gzaPndoabojI9cq-qZE7-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#67AB9F;fillColor=#A9C4EB;" vertex="1" parent="gzaPndoabojI9cq-qZE7-1">
+          <mxGeometry x="45" y="183" width="10" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="gzaPndoabojI9cq-qZE7-11" value="判断含签约订单，记录合约&lt;br&gt;（订单id，金额，商品id，代扣签约id，订单自动续费时间）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="gzaPndoabojI9cq-qZE7-10" parent="gzaPndoabojI9cq-qZE7-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="163" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="163" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqoa3q8yiXqyWTpBmEfO-11" value="插入定时任务" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="gzaPndoabojI9cq-qZE7-1" target="jqoa3q8yiXqyWTpBmEfO-6">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="60" y="255" as="sourcePoint" />
+            <mxPoint x="110" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqoa3q8yiXqyWTpBmEfO-15" value="定时触发自动续费" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="gzaPndoabojI9cq-qZE7-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399.5" y="342" as="sourcePoint" />
+            <mxPoint x="60" y="342" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqoa3q8yiXqyWTpBmEfO-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#67AB9F;fillColor=#A9C4EB;" vertex="1" parent="gzaPndoabojI9cq-qZE7-1">
+          <mxGeometry x="45" y="342" width="10" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="jqoa3q8yiXqyWTpBmEfO-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#67AB9F;fillColor=#A9C4EB;" vertex="1" parent="gzaPndoabojI9cq-qZE7-1">
+          <mxGeometry x="45" y="402" width="10" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="jqoa3q8yiXqyWTpBmEfO-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#67AB9F;fillColor=#A9C4EB;" vertex="1" parent="gzaPndoabojI9cq-qZE7-1">
+          <mxGeometry x="45" y="492" width="10" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="jqoa3q8yiXqyWTpBmEfO-31" value="调用失败重试" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="jqoa3q8yiXqyWTpBmEfO-30" parent="gzaPndoabojI9cq-qZE7-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="472" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="472" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqoa3q8yiXqyWTpBmEfO-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#67AB9F;fillColor=#A9C4EB;" vertex="1" parent="gzaPndoabojI9cq-qZE7-1">
+          <mxGeometry x="45" y="520" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jqoa3q8yiXqyWTpBmEfO-38" value="取消自动续费定时任务" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="gzaPndoabojI9cq-qZE7-1" target="jqoa3q8yiXqyWTpBmEfO-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="565" as="sourcePoint" />
+            <mxPoint x="130" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzaPndoabojI9cq-qZE7-2" value="TP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#67AB9F;fillColor=#A9C4EB;" vertex="1" parent="cm7d25lUCmXhoDQSkLji-1">
+          <mxGeometry x="300" y="65" width="100" height="705" as="geometry" />
+        </mxCell>
+        <mxCell id="gzaPndoabojI9cq-qZE7-5" value="监听宝贝类目，交易完成消息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="gzaPndoabojI9cq-qZE7-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="249.5" y="143" as="sourcePoint" />
+            <mxPoint x="50" y="143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqoa3q8yiXqyWTpBmEfO-22" value="监听代扣订单交易完成消息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="gzaPndoabojI9cq-qZE7-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="249.5" y="402" as="sourcePoint" />
+            <mxPoint x="50" y="402" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqoa3q8yiXqyWTpBmEfO-41" value="监听宝贝类目交易退款消息&lt;br&gt;或人工发起退款" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="gzaPndoabojI9cq-qZE7-2" source="gzaPndoabojI9cq-qZE7-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="515" as="sourcePoint" />
+            <mxPoint x="50" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzaPndoabojI9cq-qZE7-12" value="交易" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#67AB9F;fillColor=#A9C4EB;" vertex="1" parent="cm7d25lUCmXhoDQSkLji-1">
+          <mxGeometry x="30" y="70" width="100" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="jqoa3q8yiXqyWTpBmEfO-3" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="gzaPndoabojI9cq-qZE7-12" target="gzaPndoabojI9cq-qZE7-2">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="50" y="80" as="sourcePoint" />
+            <mxPoint x="110" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqoa3q8yiXqyWTpBmEfO-4" value="下单进行代扣签约，订单上打标 签约码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jqoa3q8yiXqyWTpBmEfO-3">
+          <mxGeometry x="-0.2281" y="-1" relative="1" as="geometry">
+            <mxPoint x="26" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqoa3q8yiXqyWTpBmEfO-16" value="创建代扣订单" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="gzaPndoabojI9cq-qZE7-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.5" y="357" as="sourcePoint" />
+            <mxPoint x="50" y="357" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqoa3q8yiXqyWTpBmEfO-36" value="取消自动续费" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="gzaPndoabojI9cq-qZE7-12" source="gzaPndoabojI9cq-qZE7-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="540" as="sourcePoint" />
+            <mxPoint x="50" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqoa3q8yiXqyWTpBmEfO-6" value="tripbp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#67AB9F;fillColor=#A9C4EB;" vertex="1" parent="cm7d25lUCmXhoDQSkLji-1">
+          <mxGeometry x="850" y="70" width="100" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="jqoa3q8yiXqyWTpBmEfO-29" value="调用开会员卡接口" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="cm7d25lUCmXhoDQSkLji-1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="555" y="497" as="sourcePoint" />
+            <mxPoint x="904.5" y="497" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqoa3q8yiXqyWTpBmEfO-34" value="调用失败重试" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="cm7d25lUCmXhoDQSkLji-1">
+          <mxGeometry x="0.0769" y="5" relative="1" as="geometry">
+            <mxPoint x="550" y="350" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="575" y="350" />
+            </Array>
+            <mxPoint x="555" y="370" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqoa3q8yiXqyWTpBmEfO-40" value="调用失败重试" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="cm7d25lUCmXhoDQSkLji-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="650" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="575" y="650" />
+            </Array>
+            <mxPoint x="555" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
