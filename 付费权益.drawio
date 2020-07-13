@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-13T10:21:05.890Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="qTSFaGwiY05B-Ukyg4He" version="13.4.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-07-13T10:22:10.872Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="54L5HUdF-q57ULCFHlzq" version="13.4.0" type="github" pages="5">
   <diagram name="会员卡ER图" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="2314" dy="1182" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -465,7 +465,7 @@
             <mxPoint x="555" y="605" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jqoa3q8yiXqyWTpBmEfO-36" value="取消自动续费（代扣签约码）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.1;exitY=0.589;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="cm7d25lUCmXhoDQSkLji-1" source="jqoa3q8yiXqyWTpBmEfO-37" target="gzaPndoabojI9cq-qZE7-12">
+        <mxCell id="jqoa3q8yiXqyWTpBmEfO-36" value="取消自动续费（代扣签约协议号）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.1;exitY=0.589;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="cm7d25lUCmXhoDQSkLji-1" source="jqoa3q8yiXqyWTpBmEfO-37" target="gzaPndoabojI9cq-qZE7-12">
           <mxGeometry x="0.0075" y="-8" relative="1" as="geometry">
             <mxPoint x="160" y="605" as="sourcePoint" />
             <mxPoint x="80" y="605" as="targetPoint" />
