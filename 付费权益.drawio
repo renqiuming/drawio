@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-22T09:46:16.906Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="WvsU2A5I10pqEjS2oBSb" version="13.6.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-08-22T10:13:53.176Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="rM1PQHL5jGYq8WX5-ert" version="13.6.2" type="github" pages="7">
   <diagram name="会员卡ER图" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="2306" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -914,14 +914,14 @@
     </mxGraphModel>
     
   </diagram>
-  <diagram id="W89HhBsJz32FlCnYIQ-W" name="搭售">
-    <mxGraphModel dx="2306" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="W89HhBsJz32FlCnYIQ-W" name="搭售正向流程">
+    <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="qHTjXIUdTJMTshjMt11w-0" />
         <mxCell id="qHTjXIUdTJMTshjMt11w-1" parent="qHTjXIUdTJMTshjMt11w-0" />
         <mxCell id="qHTjXIUdTJMTshjMt11w-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="qHTjXIUdTJMTshjMt11w-1" source="qHTjXIUdTJMTshjMt11w-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="45" y="1041" as="targetPoint" />
+            <mxPoint x="45" y="1118" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qHTjXIUdTJMTshjMt11w-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="qHTjXIUdTJMTshjMt11w-1">
@@ -1016,7 +1016,7 @@
         <mxCell id="qHTjXIUdTJMTshjMt11w-24" value="FP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="qHTjXIUdTJMTshjMt11w-1">
           <mxGeometry x="1070" y="40" width="100" height="1020" as="geometry" />
         </mxCell>
-        <mxCell id="qHTjXIUdTJMTshjMt11w-25" value="查询里程抵现（新链路）" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="qHTjXIUdTJMTshjMt11w-1">
+        <mxCell id="qHTjXIUdTJMTshjMt11w-25" value="查询里程抵现（新链路）" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="qHTjXIUdTJMTshjMt11w-1" target="qHTjXIUdTJMTshjMt11w-24">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="220" y="420" as="sourcePoint" />
             <mxPoint x="945.25" y="420" as="targetPoint" />
@@ -1039,6 +1039,69 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="qHTjXIUdTJMTshjMt11w-29" value="订单支付" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="qHTjXIUdTJMTshjMt11w-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50.5" y="590" as="sourcePoint" />
+            <mxPoint x="220" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qHTjXIUdTJMTshjMt11w-30" value="信用住确认有房" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="qHTjXIUdTJMTshjMt11w-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50.5" y="630" as="sourcePoint" />
+            <mxPoint x="220" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qHTjXIUdTJMTshjMt11w-31" value="监听履约消息" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="qHTjXIUdTJMTshjMt11w-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="600" y="670" as="sourcePoint" />
+            <mxPoint x="769.5" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qHTjXIUdTJMTshjMt11w-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="qHTjXIUdTJMTshjMt11w-1">
+          <mxGeometry x="600" y="720" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qHTjXIUdTJMTshjMt11w-33" value="记录主订单合并下单优惠id" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="qHTjXIUdTJMTshjMt11w-32" parent="qHTjXIUdTJMTshjMt11w-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="700" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="630" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qHTjXIUdTJMTshjMt11w-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="qHTjXIUdTJMTshjMt11w-1">
+          <mxGeometry x="770" y="620" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qHTjXIUdTJMTshjMt11w-35" value="辅营订单发起权益履约" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="qHTjXIUdTJMTshjMt11w-1" target="qHTjXIUdTJMTshjMt11w-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="600" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="800" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qHTjXIUdTJMTshjMt11w-36" value="会员卡权益发放" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="qHTjXIUdTJMTshjMt11w-1" target="qHTjXIUdTJMTshjMt11w-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="600" y="790" as="sourcePoint" />
+            <mxPoint x="769.5" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qHTjXIUdTJMTshjMt11w-38" value="权益发放全部成功，核销会员价资格券、行业ump券" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="qHTjXIUdTJMTshjMt11w-1" target="qHTjXIUdTJMTshjMt11w-39">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="600.25" y="820" as="sourcePoint" />
+            <mxPoint x="949.75" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qHTjXIUdTJMTshjMt11w-39" value="UMP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="qHTjXIUdTJMTshjMt11w-1">
+          <mxGeometry x="1210" y="40" width="100" height="1020" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2dd53MjMYPDqZ1YkqO36" name="搭售逆向流程">
+    <mxGraphModel dx="2306" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="4VWdKTcpuw3b2m1BSj_o-0" />
+        <mxCell id="4VWdKTcpuw3b2m1BSj_o-1" parent="4VWdKTcpuw3b2m1BSj_o-0" />
       </root>
     </mxGraphModel>
   </diagram>
