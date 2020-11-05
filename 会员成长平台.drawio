@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-05T05:54:44.232Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="25yKounZw9Sk-Sw_HhMv" version="13.9.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-11-05T06:02:10.611Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="PudRM2O5Jc81sYlSVRP_" version="13.9.1" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="应用架构">
     <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -670,11 +670,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="X_ltcTHnwZRUIUq_wFzC" name="升级体系">
-    <mxGraphModel dx="2066" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1152" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="hTiLDPTOXz1dqKxkwnUd-0" />
         <mxCell id="hTiLDPTOXz1dqKxkwnUd-1" parent="hTiLDPTOXz1dqKxkwnUd-0" />
-        <mxCell id="kkqjI8OQY881QKjCHENn-0" value="tripRule" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE599;strokeColor=none;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
+        <mxCell id="kkqjI8OQY881QKjCHENn-0" value="`" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE599;strokeColor=none;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
           <mxGeometry x="30" y="633" width="720" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kkqjI8OQY881QKjCHENn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
@@ -688,7 +688,7 @@
             <mxPoint x="110" y="127" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y957kAnCc-RsUQWjnSrg-2" value="消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y957kAnCc-RsUQWjnSrg-1">
+        <mxCell id="y957kAnCc-RsUQWjnSrg-2" value="MQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="y957kAnCc-RsUQWjnSrg-1">
           <mxGeometry y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -698,11 +698,11 @@
         </mxCell>
         <mxCell id="kkqjI8OQY881QKjCHENn-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hTiLDPTOXz1dqKxkwnUd-1" source="kkqjI8OQY881QKjCHENn-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="550" y="128" as="targetPoint" />
+            <mxPoint x="494" y="128" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kkqjI8OQY881QKjCHENn-10" value="激活" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
-          <mxGeometry x="500" y="49" width="100" height="40" as="geometry" />
+          <mxGeometry x="444" y="49" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kkqjI8OQY881QKjCHENn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
           <mxGeometry relative="1" as="geometry">
@@ -736,22 +736,19 @@
         <mxCell id="kkqjI8OQY881QKjCHENn-26" value="trippoint&lt;br&gt;经验值发放、过期任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=none;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
           <mxGeometry x="40" y="129" width="303" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="kkqjI8OQY881QKjCHENn-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="hTiLDPTOXz1dqKxkwnUd-1" source="kkqjI8OQY881QKjCHENn-27">
+        <mxCell id="y957kAnCc-RsUQWjnSrg-7" value="MQ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="hTiLDPTOXz1dqKxkwnUd-1" source="kkqjI8OQY881QKjCHENn-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="118" y="178" as="targetPoint" />
+            <mxPoint x="197" y="181" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kkqjI8OQY881QKjCHENn-27" value="tripffa" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=none;align=center;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
+        <mxCell id="kkqjI8OQY881QKjCHENn-27" value="tripffa&lt;br&gt;经验值增加升级&lt;br&gt;经验值过期降级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=none;align=center;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
           <mxGeometry x="40" y="237" width="313" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="kkqjI8OQY881QKjCHENn-32" value="经验值消息升级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#67AB9F;strokeColor=none;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
-          <mxGeometry x="68" y="277" width="110" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="kkqjI8OQY881QKjCHENn-35" value="经验值过期消息降级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#67AB9F;strokeColor=none;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
-          <mxGeometry x="228" y="279" width="112" height="25" as="geometry" />
-        </mxCell>
         <mxCell id="kkqjI8OQY881QKjCHENn-39" value="ffalevel&lt;br&gt;激活定级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=none;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
-          <mxGeometry x="477" y="129" width="151" height="76" as="geometry" />
+          <mxGeometry x="421" y="129" width="151" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="y957kAnCc-RsUQWjnSrg-8" value="ffalevel&lt;br&gt;激活定级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=none;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
+          <mxGeometry x="632" y="129" width="151" height="51" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
