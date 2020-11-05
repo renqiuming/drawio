@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-05T11:45:36.442Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="Lu-d28XQuc0PLQwbzFfh" version="13.9.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-11-05T12:06:56.751Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="OgE_oLzoFbqalmU7O40B" version="13.9.1" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="应用架构">
     <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -670,7 +670,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="X_ltcTHnwZRUIUq_wFzC" name="升级体系">
-    <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1152" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="hTiLDPTOXz1dqKxkwnUd-0" />
         <mxCell id="hTiLDPTOXz1dqKxkwnUd-1" parent="hTiLDPTOXz1dqKxkwnUd-0" />
@@ -726,7 +726,7 @@
         <mxCell id="y957kAnCc-RsUQWjnSrg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.805;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="hTiLDPTOXz1dqKxkwnUd-1" source="y957kAnCc-RsUQWjnSrg-8" target="kkqjI8OQY881QKjCHENn-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y957kAnCc-RsUQWjnSrg-8" value="精卫&lt;br&gt;等级过期日志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#67AB9F;strokeColor=none;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
+        <mxCell id="y957kAnCc-RsUQWjnSrg-8" value="精卫&lt;br&gt;等级过期记录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#67AB9F;strokeColor=none;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
           <mxGeometry x="591" y="165" width="90" height="34" as="geometry" />
         </mxCell>
         <mxCell id="y957kAnCc-RsUQWjnSrg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hTiLDPTOXz1dqKxkwnUd-1" source="y957kAnCc-RsUQWjnSrg-9">
@@ -769,13 +769,18 @@
         <mxCell id="QH1vRcOf95OvJvOBlb-e-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.314;entryY=1.048;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="hTiLDPTOXz1dqKxkwnUd-1" source="QH1vRcOf95OvJvOBlb-e-5" target="QH1vRcOf95OvJvOBlb-e-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="QH1vRcOf95OvJvOBlb-e-38" value="MQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QH1vRcOf95OvJvOBlb-e-17">
+          <mxGeometry x="0.0359" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="QH1vRcOf95OvJvOBlb-e-5" value="fliggypoint&lt;br&gt;交易里程发放、里程翻倍、发放逆向回退" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
           <mxGeometry x="389" y="494" width="183" height="42" as="geometry" />
         </mxCell>
         <mxCell id="QH1vRcOf95OvJvOBlb-e-8" value="+" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFF99;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
           <mxGeometry x="564" y="673" width="38" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="QH1vRcOf95OvJvOBlb-e-16" value="ffalavel新增&lt;br&gt;等级分数增加、回退 触发升级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=none;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
+        <mxCell id="QH1vRcOf95OvJvOBlb-e-16" value="ffalavel新增&lt;br&gt;等级分数增加/回退 ;分数增加升级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=none;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
           <mxGeometry x="383" y="413" width="318" height="42" as="geometry" />
         </mxCell>
         <mxCell id="QH1vRcOf95OvJvOBlb-e-18" value="废弃" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
@@ -788,16 +793,16 @@
           <mxGeometry x="314" y="565" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QH1vRcOf95OvJvOBlb-e-23" value="经验值总额" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#A9C4EB;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
-          <mxGeometry x="69" y="339" width="101" height="52" as="geometry" />
+          <mxGeometry x="218" y="339" width="101" height="52" as="geometry" />
         </mxCell>
         <mxCell id="QH1vRcOf95OvJvOBlb-e-24" value="经验值流水" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#A9C4EB;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
-          <mxGeometry x="221" y="339" width="86" height="52" as="geometry" />
+          <mxGeometry x="72" y="335" width="86" height="52" as="geometry" />
         </mxCell>
         <mxCell id="QH1vRcOf95OvJvOBlb-e-26" value="等级分数流水" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#A9C4EB;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
-          <mxGeometry x="444" y="582" width="86" height="52" as="geometry" />
+          <mxGeometry x="444" y="585" width="86" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="QH1vRcOf95OvJvOBlb-e-27" value="等级分数余额" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#A9C4EB;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
-          <mxGeometry x="608" y="585" width="86" height="52" as="geometry" />
+        <mxCell id="QH1vRcOf95OvJvOBlb-e-27" value="等级分数日总额" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#A9C4EB;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
+          <mxGeometry x="597" y="585" width="97" height="52" as="geometry" />
         </mxCell>
         <mxCell id="QH1vRcOf95OvJvOBlb-e-28" value="会员等级" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#A9C4EB;" vertex="1" parent="hTiLDPTOXz1dqKxkwnUd-1">
           <mxGeometry x="441" y="339" width="86" height="52" as="geometry" />
