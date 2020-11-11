@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-11T03:20:45.718Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="kOtrYhngnM03BZJRxar_" version="13.9.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-11-11T03:33:56.437Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="N6j4T1TRGpxtSYYyueg_" version="13.9.1" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="应用架构">
     <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -893,7 +893,7 @@
         <mxCell id="gvY0uAiPQehJkRofeRY6-17" value="运营工具" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="VbR0l1-W8Qs6xIr2S78U-1">
           <mxGeometry x="346" y="101" width="78" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="w9p3fSWNg4779V3AFpIn-0" value="会员服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9AC7BF;strokeColor=none;align=center;" vertex="1" parent="VbR0l1-W8Qs6xIr2S78U-1">
+        <mxCell id="w9p3fSWNg4779V3AFpIn-0" value="会员等级服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9AC7BF;strokeColor=none;align=center;" vertex="1" parent="VbR0l1-W8Qs6xIr2S78U-1">
           <mxGeometry x="15" y="207" width="789" height="35" as="geometry" />
         </mxCell>
         <mxCell id="w9p3fSWNg4779V3AFpIn-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="VbR0l1-W8Qs6xIr2S78U-1">
