@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-11T11:31:11.385Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="_ybriJHLEUIMyZv9trfr" version="13.9.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-06T03:57:05.586Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="5g2wEnMxHMWEZVtabU29" version="14.1.8" type="github" pages="9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="应用架构">
-    <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1152" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -998,6 +998,14 @@
         <mxCell id="DkH1qDwCT6QfsmbSFJds-24" value="&lt;span&gt;兼容&lt;/span&gt;&lt;br&gt;&lt;span&gt;新增F1plus&lt;/span&gt;&lt;br&gt;&lt;span&gt;和经验值下线&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#FFFF99;shadow=1;strokeColor=#FFFF99;" vertex="1" parent="VbR0l1-W8Qs6xIr2S78U-1">
           <mxGeometry x="680" y="104" width="120" height="80" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iPvExqIvKXfZ2xERZIeV" name="第 9 页">
+    <mxGraphModel dx="1152" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="fPr6zlaRM6QjW5wpkI8z-0" />
+        <mxCell id="fPr6zlaRM6QjW5wpkI8z-1" parent="fPr6zlaRM6QjW5wpkI8z-0" />
       </root>
     </mxGraphModel>
   </diagram>
