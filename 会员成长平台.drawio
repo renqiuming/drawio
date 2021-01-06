@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-06T04:06:22.493Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="GF_1iOEA9Ovm1MsTNN_4" version="14.1.8" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-01-06T06:58:47.484Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="dryffx7JuU3efiibyMV4" version="14.1.8" type="github" pages="9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="应用架构">
     <mxGraphModel dx="1152" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1096,6 +1096,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="729.5" y="460" as="sourcePoint" />
             <mxPoint x="560" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8DRK2r3pEs409NroecE-25" value="2.发放失败" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="fPr6zlaRM6QjW5wpkI8z-1" source="I8DRK2r3pEs409NroecE-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389.5" y="440" as="sourcePoint" />
+            <mxPoint x="220" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
