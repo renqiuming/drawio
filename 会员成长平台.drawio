@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-06T04:05:36.906Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Gd7l4TF3EulOwcj7G5-R" version="14.1.8" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-01-06T04:06:22.493Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="GF_1iOEA9Ovm1MsTNN_4" version="14.1.8" type="github" pages="9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="应用架构">
     <mxGraphModel dx="1152" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1086,10 +1086,16 @@
             <mxPoint x="400" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I8DRK2r3pEs409NroecE-22" value="1.发放成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="fPr6zlaRM6QjW5wpkI8z-1">
+        <mxCell id="I8DRK2r3pEs409NroecE-22" value="2.发放失败" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="fPr6zlaRM6QjW5wpkI8z-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="729.5" y="430" as="sourcePoint" />
             <mxPoint x="560" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I8DRK2r3pEs409NroecE-24" value="3.发放超时" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="fPr6zlaRM6QjW5wpkI8z-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="729.5" y="460" as="sourcePoint" />
+            <mxPoint x="560" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
