@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-06T07:23:28.186Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="rHII1YTCyti9KCCsCgU3" version="14.1.8" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-01-07T07:46:49.311Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="wNjWTDzqrrgu3AhiFGCB" version="14.1.8" type="github" pages="9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="应用架构">
     <mxGraphModel dx="1152" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1002,7 +1002,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iPvExqIvKXfZ2xERZIeV" name="发放权益">
-    <mxGraphModel dx="1152" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="960" dy="493" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="fPr6zlaRM6QjW5wpkI8z-0" />
         <mxCell id="fPr6zlaRM6QjW5wpkI8z-1" parent="fPr6zlaRM6QjW5wpkI8z-0" />
@@ -1144,7 +1144,7 @@
         <mxCell id="I8DRK2r3pEs409NroecE-62" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="I8DRK2r3pEs409NroecE-33">
           <mxGeometry x="55" y="576" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="I8DRK2r3pEs409NroecE-63" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 153)&quot;&gt;重试回退扣减里程？&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="I8DRK2r3pEs409NroecE-33">
+        <mxCell id="I8DRK2r3pEs409NroecE-63" value="重试回退扣减里程" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="I8DRK2r3pEs409NroecE-33">
           <mxGeometry x="0.2" y="10" relative="1" as="geometry">
             <mxPoint x="54" y="555" as="sourcePoint" />
             <Array as="points">
@@ -1157,7 +1157,7 @@
         <mxCell id="I8DRK2r3pEs409NroecE-66" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="I8DRK2r3pEs409NroecE-33">
           <mxGeometry x="53" y="702" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="I8DRK2r3pEs409NroecE-67" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 153)&quot;&gt;重试发放权益（暂无）&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="I8DRK2r3pEs409NroecE-66" parent="I8DRK2r3pEs409NroecE-33">
+        <mxCell id="I8DRK2r3pEs409NroecE-67" value="&lt;span style=&quot;background-color: rgb(255 , 204 , 153)&quot;&gt;重试发放权益（同步转异步）&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="I8DRK2r3pEs409NroecE-66" parent="I8DRK2r3pEs409NroecE-33">
           <mxGeometry x="-0.0769" y="9" relative="1" as="geometry">
             <mxPoint x="58" y="682" as="sourcePoint" />
             <Array as="points">
@@ -1273,7 +1273,7 @@
             <mxPoint x="226" y="1344" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I8DRK2r3pEs409NroecE-68" value="返回发放成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="fPr6zlaRM6QjW5wpkI8z-1">
+        <mxCell id="I8DRK2r3pEs409NroecE-68" value="返回发放中" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="fPr6zlaRM6QjW5wpkI8z-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="214" y="1358" as="sourcePoint" />
             <mxPoint x="63" y="1358" as="targetPoint" />
