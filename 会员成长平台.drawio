@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T03:23:28.601Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="zrrYrvEBrcHQlRTBi7ND" version="14.1.8" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-01-24T03:42:16.583Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="MpuXVpSnGR9HGRlNReAT" version="14.1.8" type="github" pages="11">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="应用架构">
     <mxGraphModel dx="1157" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1368,7 +1368,7 @@
           <mxGeometry x="700" y="170" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="1Ykbv4cUJzP2BP_W_ywE-23" value="非行业商家接口对接&lt;br&gt;【ffa-adapter】" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;strokeColor=none;" vertex="1" parent="7ONDaMSvVVtiVGcb5JXj-1">
-          <mxGeometry x="700" y="200" width="330" height="35" as="geometry" />
+          <mxGeometry x="899" y="200" width="130" height="35" as="geometry" />
         </mxCell>
         <mxCell id="1Ykbv4cUJzP2BP_W_ywE-25" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="7ONDaMSvVVtiVGcb5JXj-1">
           <mxGeometry x="1130" y="51" width="132" height="409" as="geometry" />
@@ -1419,22 +1419,22 @@
           <mxGeometry x="700" y="300" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1Ykbv4cUJzP2BP_W_ywE-44" value="酒店接口对接&lt;br&gt;【hmember+hsftp】" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=none;" vertex="1" parent="7ONDaMSvVVtiVGcb5JXj-1">
-          <mxGeometry x="900" y="250" width="128" height="40" as="geometry" />
+          <mxGeometry x="900" y="250" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1Ykbv4cUJzP2BP_W_ywE-45" value="" style="shape=flexArrow;endArrow=classic;html=1;width=12;endSize=4.67;" edge="1" parent="7ONDaMSvVVtiVGcb5JXj-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="840" y="270" as="sourcePoint" />
-            <mxPoint x="880" y="270" as="targetPoint" />
+            <mxPoint x="841" y="270" as="sourcePoint" />
+            <mxPoint x="881" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1Ykbv4cUJzP2BP_W_ywE-46" value="" style="shape=flexArrow;endArrow=classic;html=1;width=12;endSize=4.67;" edge="1" parent="7ONDaMSvVVtiVGcb5JXj-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="842" y="315" as="sourcePoint" />
-            <mxPoint x="882" y="315" as="targetPoint" />
+            <mxPoint x="842" y="319" as="sourcePoint" />
+            <mxPoint x="882" y="319" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1Ykbv4cUJzP2BP_W_ywE-47" value="航空公司接口对接&lt;br&gt;【apc】" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCE5FF;strokeColor=none;" vertex="1" parent="7ONDaMSvVVtiVGcb5JXj-1">
-          <mxGeometry x="900" y="300" width="129" height="40" as="geometry" />
+          <mxGeometry x="900" y="300" width="131" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1Ykbv4cUJzP2BP_W_ywE-51" value="" style="shape=flexArrow;endArrow=classic;html=1;width=12;endSize=4.67;" edge="1" parent="7ONDaMSvVVtiVGcb5JXj-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1464,7 +1464,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1Ykbv4cUJzP2BP_W_ywE-57" value="酒店sftp服务器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=none;" vertex="1" parent="7ONDaMSvVVtiVGcb5JXj-1">
-          <mxGeometry x="900" y="390" width="129" height="37" as="geometry" />
+          <mxGeometry x="901" y="386" width="133" height="29" as="geometry" />
         </mxCell>
         <mxCell id="1Ykbv4cUJzP2BP_W_ywE-58" value="" style="shape=flexArrow;endArrow=classic;html=1;width=12;endSize=4.67;entryX=0.973;entryY=0.448;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="7ONDaMSvVVtiVGcb5JXj-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1486,6 +1486,18 @@
         </mxCell>
         <mxCell id="1Ykbv4cUJzP2BP_W_ywE-65" value="服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;strokeColor=none;" vertex="1" parent="7ONDaMSvVVtiVGcb5JXj-1">
           <mxGeometry x="319" y="41" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3n80b3Ys9eW-tL6VU_Qs-0" value="非行业插件&lt;br&gt;【ffa-other-plugin】" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;strokeColor=none;" vertex="1" parent="7ONDaMSvVVtiVGcb5JXj-1">
+          <mxGeometry x="700" y="200" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="3n80b3Ys9eW-tL6VU_Qs-1" value="" style="shape=flexArrow;endArrow=classic;html=1;width=12;endSize=4.67;" edge="1" parent="7ONDaMSvVVtiVGcb5JXj-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="842" y="217" as="sourcePoint" />
+            <mxPoint x="882" y="217" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3n80b3Ys9eW-tL6VU_Qs-2" value="&lt;font style=&quot;font-size: 8px&quot;&gt;非行业商家sftp服务器&lt;br&gt;（暂无需求,要求接口）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;strokeColor=none;" vertex="1" parent="7ONDaMSvVVtiVGcb5JXj-1">
+          <mxGeometry x="900" y="418" width="135" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
