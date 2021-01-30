@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-30T08:09:16.813Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="xyVnOv99H8Z4fmTIjvax" version="14.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-30T08:11:40.148Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="J1gOKsP-cNDYaeBqAcXQ" version="14.2.7" type="github" pages="2">
   <diagram id="72KEIIUKLtnGTryr8UlC" name="会员互通调用架构">
     <mxGraphModel dx="1149" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -235,16 +235,16 @@
           <mxGeometry x="39" y="190" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="mif41exuNmXrAygBINvN-16" value="任务触达接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="mif41exuNmXrAygBINvN-1">
-          <mxGeometry x="259" y="230" width="90" height="70" as="geometry" />
+          <mxGeometry x="39" y="230" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="mif41exuNmXrAygBINvN-23" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="mif41exuNmXrAygBINvN-1">
           <mxGeometry x="19" y="362" width="790" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="mif41exuNmXrAygBINvN-24" value="效果跟踪" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="mif41exuNmXrAygBINvN-1">
+        <mxCell id="mif41exuNmXrAygBINvN-24" value="数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="mif41exuNmXrAygBINvN-1">
           <mxGeometry x="39" y="352" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="mif41exuNmXrAygBINvN-26" value="d2&lt;br&gt;任务效果计算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="mif41exuNmXrAygBINvN-1">
-          <mxGeometry x="149" y="392" width="90" height="70" as="geometry" />
+          <mxGeometry x="39" y="392" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="mif41exuNmXrAygBINvN-29" value="d2&lt;br&gt;人群偏好计算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="mif41exuNmXrAygBINvN-1">
           <mxGeometry x="259" y="394.5" width="90" height="70" as="geometry" />
@@ -282,7 +282,7 @@
         <mxCell id="mif41exuNmXrAygBINvN-84" value="&lt;span&gt;激活&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="mif41exuNmXrAygBINvN-1">
           <mxGeometry x="369" y="80" width="90" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="mif41exuNmXrAygBINvN-85" value="&lt;span&gt;升、降级&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="mif41exuNmXrAygBINvN-1">
+        <mxCell id="mif41exuNmXrAygBINvN-85" value="&lt;span&gt;升、降、保级&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="mif41exuNmXrAygBINvN-1">
           <mxGeometry x="479" y="80" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="mif41exuNmXrAygBINvN-86" value="&lt;span&gt;定级里程、明细查询&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="mif41exuNmXrAygBINvN-1">
@@ -291,7 +291,7 @@
         <mxCell id="mif41exuNmXrAygBINvN-87" value="阿里系会员等级查询" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="mif41exuNmXrAygBINvN-1">
           <mxGeometry x="589" y="80" width="90" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="mif41exuNmXrAygBINvN-88" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="mif41exuNmXrAygBINvN-1">
+        <mxCell id="mif41exuNmXrAygBINvN-88" value="付费会员" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;strokeColor=none;" vertex="1" parent="mif41exuNmXrAygBINvN-1">
           <mxGeometry x="699" y="80" width="90" height="70" as="geometry" />
         </mxCell>
       </root>
