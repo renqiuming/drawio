@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T13:08:34.616Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="pqV0WiCSXVfreR48xu5o" version="14.4.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-03-02T13:09:07.870Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="Jpb9zUy-mcoJ-yZyTrOT" version="14.4.3" type="github" pages="3">
   <diagram id="72KEIIUKLtnGTryr8UlC" name="会员互通调用架构">
     <mxGraphModel dx="1149" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -329,7 +329,7 @@
         <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-2" value="交易" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-1">
           <mxGeometry x="136" y="25" width="105" height="555" as="geometry" />
         </mxCell>
-        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-8" value="签约" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="IJ1BF6b4Q4ubPcGxEfK1-2" target="IJ1BF6b4Q4ubPcGxEfK1-4">
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-8" value="发起签约" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="IJ1BF6b4Q4ubPcGxEfK1-2" target="IJ1BF6b4Q4ubPcGxEfK1-4">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="54" y="121" as="sourcePoint" />
             <mxPoint x="134" y="121" as="targetPoint" />
