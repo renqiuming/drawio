@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T13:09:07.870Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="Jpb9zUy-mcoJ-yZyTrOT" version="14.4.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-03-02T13:11:20.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="O_sNPjo-nCxz6Ej98K8J" version="14.4.3" type="github" pages="3">
   <diagram id="72KEIIUKLtnGTryr8UlC" name="会员互通调用架构">
     <mxGraphModel dx="1149" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -335,7 +335,7 @@
             <mxPoint x="134" y="121" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-9" value="预注册 记录续费itemId、商品类型、续期时长" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="IJ1BF6b4Q4ubPcGxEfK1-2" target="IJ1BF6b4Q4ubPcGxEfK1-3">
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-9" value="预注册 记录续费itemId标、商品类型、续期时长" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="IJ1BF6b4Q4ubPcGxEfK1-2" target="IJ1BF6b4Q4ubPcGxEfK1-3">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="53" y="155" as="sourcePoint" />
             <mxPoint x="133" y="155" as="targetPoint" />
@@ -356,6 +356,17 @@
             <mxPoint x="134" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-3">
+          <mxGeometry x="52" y="294" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-19" value="菲住会员卡记录申请单对应的续期时长" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="IJ1BF6b4Q4ubPcGxEfK1-18" parent="IJ1BF6b4Q4ubPcGxEfK1-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="57" y="274" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="82" y="274" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-4" value="支付宝" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-1">
           <mxGeometry x="288" y="25" width="101" height="563" as="geometry" />
         </mxCell>
@@ -373,7 +384,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-1">
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-6" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-1">
           <mxGeometry x="41" y="22" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-7" value="下自动续期商品单" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="IJ1BF6b4Q4ubPcGxEfK1-1">
