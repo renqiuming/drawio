@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T13:16:25.509Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="W6NWskcIn7VbzIFVgyjT" version="14.4.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-03-02T13:25:53.535Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="D_Wa3DZ0-SrbECzXR-Gy" version="14.4.3" type="github" pages="3">
   <diagram id="72KEIIUKLtnGTryr8UlC" name="会员互通调用架构">
     <mxGraphModel dx="1149" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -322,12 +322,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3JrHCbSBCrIEM0zCpzF5" name="菲住卡续费流程">
-    <mxGraphModel dx="1149" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1352" dy="695" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-0" />
         <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-1" parent="IJ1BF6b4Q4ubPcGxEfK1-0" />
         <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-2" value="交易" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-1">
-          <mxGeometry x="136" y="25" width="105" height="555" as="geometry" />
+          <mxGeometry x="116" y="27" width="105" height="670" as="geometry" />
         </mxCell>
         <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-8" value="发起签约" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="IJ1BF6b4Q4ubPcGxEfK1-2" target="IJ1BF6b4Q4ubPcGxEfK1-4">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -341,8 +341,29 @@
             <mxPoint x="133" y="155" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-25" value="调用交易创单" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="IJ1BF6b4Q4ubPcGxEfK1-2" source="IJ1BF6b4Q4ubPcGxEfK1-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="134" y="503" as="sourcePoint" />
+            <mxPoint x="54" y="503" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-26" value="调用交易代扣款" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="IJ1BF6b4Q4ubPcGxEfK1-2" source="IJ1BF6b4Q4ubPcGxEfK1-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="132" y="525" as="sourcePoint" />
+            <mxPoint x="52" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-27" value="发起待扣款" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="IJ1BF6b4Q4ubPcGxEfK1-2" target="IJ1BF6b4Q4ubPcGxEfK1-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="53" y="549" as="sourcePoint" />
+            <mxPoint x="133" y="549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-2">
+          <mxGeometry x="45" y="525" width="10" height="27" as="geometry" />
+        </mxCell>
         <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-3" value="平台会员" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-1">
-          <mxGeometry x="428" y="25" width="101" height="563" as="geometry" />
+          <mxGeometry x="408" y="27" width="101" height="680" as="geometry" />
         </mxCell>
         <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-13" value="触发实际发起注册" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="IJ1BF6b4Q4ubPcGxEfK1-3">
           <mxGeometry relative="1" as="geometry">
@@ -359,7 +380,7 @@
         <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-3">
           <mxGeometry x="46" y="329.5" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-19" value="菲住会员卡记录申请单对应的自动续期标、续期时长" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="IJ1BF6b4Q4ubPcGxEfK1-18" parent="IJ1BF6b4Q4ubPcGxEfK1-3">
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-19" value="菲住卡记录覆盖申请单&lt;br&gt;对应的自动续期标、续期时长" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="IJ1BF6b4Q4ubPcGxEfK1-18" parent="IJ1BF6b4Q4ubPcGxEfK1-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="57.5" y="309.5" as="sourcePoint" />
             <Array as="points">
@@ -378,11 +399,24 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-24" value="&lt;span style=&quot;text-align: left&quot;&gt;查询即将过期&lt;/span&gt;&lt;br style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;含续费标的菲住卡&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="IJ1BF6b4Q4ubPcGxEfK1-3" source="IJ1BF6b4Q4ubPcGxEfK1-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="472" as="sourcePoint" />
+            <mxPoint x="50" y="472" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-31" value="提交注册" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="IJ1BF6b4Q4ubPcGxEfK1-3">
+          <mxGeometry x="-0.0327" y="-7" relative="1" as="geometry">
+            <mxPoint x="203" y="610" as="sourcePoint" />
+            <mxPoint x="50" y="610" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-4" value="支付宝" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-1">
-          <mxGeometry x="288" y="25" width="101" height="563" as="geometry" />
+          <mxGeometry x="268" y="27" width="101" height="676" as="geometry" />
         </mxCell>
         <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-5" value="商家会员" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-1">
-          <mxGeometry x="581" y="25" width="101" height="563" as="geometry" />
+          <mxGeometry x="561" y="27" width="101" height="680" as="geometry" />
         </mxCell>
         <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-5">
           <mxGeometry x="46" y="222.5" width="10" height="40" as="geometry" />
@@ -395,17 +429,39 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-6" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-1">
-          <mxGeometry x="41" y="22" width="30" height="60" as="geometry" />
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-5">
+          <mxGeometry x="46" y="436" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-7" value="下自动续期商品单" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="IJ1BF6b4Q4ubPcGxEfK1-1">
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-23" value="续期定时器" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="IJ1BF6b4Q4ubPcGxEfK1-22" parent="IJ1BF6b4Q4ubPcGxEfK1-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="51" y="416" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="76" y="416" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-5">
+          <mxGeometry x="46" y="572" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-30" value="扣款成功发起注册&lt;br&gt;扣款失败原因为取消续约则结束" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="IJ1BF6b4Q4ubPcGxEfK1-29" parent="IJ1BF6b4Q4ubPcGxEfK1-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="51" y="552" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="76" y="552" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-6" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-1">
+          <mxGeometry x="11" y="73" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-7" value="下自动续期菲住卡" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="IJ1BF6b4Q4ubPcGxEfK1-1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="76" y="132" as="sourcePoint" />
-            <mxPoint x="185" y="132" as="targetPoint" />
+            <mxPoint x="57" y="110" as="sourcePoint" />
+            <mxPoint x="166" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-10" value="菲住" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-1">
-          <mxGeometry x="723" y="25" width="101" height="563" as="geometry" />
+          <mxGeometry x="703" y="27" width="101" height="677" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
