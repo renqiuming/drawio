@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T13:04:10.764Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="LYkqrz8QaCIP3GJhjnSm" version="14.4.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-03-02T13:06:45.408Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="w-RCWQeL7JqdvgmD_OWY" version="14.4.3" type="github" pages="3">
   <diagram id="72KEIIUKLtnGTryr8UlC" name="会员互通调用架构">
     <mxGraphModel dx="1149" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -335,20 +335,43 @@
             <mxPoint x="134" y="121" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-9" value="记录续费itemId、商品类型、续期时长" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="IJ1BF6b4Q4ubPcGxEfK1-2" target="IJ1BF6b4Q4ubPcGxEfK1-3">
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-9" value="预注册 记录续费itemId、商品类型、续期时长" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="IJ1BF6b4Q4ubPcGxEfK1-2" target="IJ1BF6b4Q4ubPcGxEfK1-3">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="53" y="155" as="sourcePoint" />
             <mxPoint x="133" y="155" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-3" value="平台会员" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-1">
-          <mxGeometry x="472" y="25" width="101" height="563" as="geometry" />
+          <mxGeometry x="428" y="25" width="101" height="563" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-13" value="触发实际发起注册" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="IJ1BF6b4Q4ubPcGxEfK1-3" source="IJ1BF6b4Q4ubPcGxEfK1-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="134" y="227" as="sourcePoint" />
+            <mxPoint x="54" y="227" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-15" value="实际提交注册" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="IJ1BF6b4Q4ubPcGxEfK1-3" target="IJ1BF6b4Q4ubPcGxEfK1-10">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="54" y="260" as="sourcePoint" />
+            <mxPoint x="134" y="260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-4" value="支付宝" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-1">
           <mxGeometry x="288" y="25" width="101" height="563" as="geometry" />
         </mxCell>
         <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-5" value="商家会员" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-1">
-          <mxGeometry x="664" y="25" width="101" height="563" as="geometry" />
+          <mxGeometry x="581" y="25" width="101" height="563" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-5">
+          <mxGeometry x="51" y="187" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-12" value="监听tccp支付&lt;br&gt;完成履约消息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="IJ1BF6b4Q4ubPcGxEfK1-11" parent="IJ1BF6b4Q4ubPcGxEfK1-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="56" y="167" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="81" y="167" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-1">
           <mxGeometry x="41" y="22" width="30" height="60" as="geometry" />
@@ -358,6 +381,9 @@
             <mxPoint x="76" y="132" as="sourcePoint" />
             <mxPoint x="185" y="132" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IJ1BF6b4Q4ubPcGxEfK1-10" value="菲住" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="IJ1BF6b4Q4ubPcGxEfK1-1">
+          <mxGeometry x="723" y="25" width="101" height="563" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
