@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T12:47:18.078Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="v8Bm1OHrEvzAFUAsLL6s" version="14.4.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-11T04:07:23.055Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="MpDuyaFcfzO3funpZMzE" version="14.4.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="会员升级">
-    <mxGraphModel dx="1537" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="ffalevel" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="70" width="100" height="790" as="geometry" />
+          <mxGeometry x="460" y="70" width="100" height="960" as="geometry" />
         </mxCell>
-        <mxCell id="6liErYeZMldiHp-Yd90p-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+        <mxCell id="6liErYeZMldiHp-Yd90p-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="45" y="120" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6liErYeZMldiHp-Yd90p-3" value="监听tp支付成功消息进行激活&lt;br&gt;（&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;TradeActivateHandler&lt;/span&gt;）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="6liErYeZMldiHp-Yd90p-2" parent="3nuBFxr9cyL0pnOWT2aG-1">
+        <mxCell id="6liErYeZMldiHp-Yd90p-3" value="监听tp支付成功消息进行激活&lt;br&gt;（&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;TradeActivateHandler&lt;/span&gt;）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="6liErYeZMldiHp-Yd90p-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="100" as="sourcePoint" />
             <Array as="points">
@@ -18,13 +18,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6liErYeZMldiHp-Yd90p-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+        <mxCell id="6liErYeZMldiHp-Yd90p-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="45" y="210" width="10" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="6liErYeZMldiHp-Yd90p-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+        <mxCell id="6liErYeZMldiHp-Yd90p-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="50" y="230" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6liErYeZMldiHp-Yd90p-20" value="查询会员信息接口直接激活&lt;br&gt;(&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;TripUserInfoService&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;getTripUserInfo&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;)&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="6liErYeZMldiHp-Yd90p-19" parent="3nuBFxr9cyL0pnOWT2aG-1">
+        <mxCell id="6liErYeZMldiHp-Yd90p-20" value="查询会员信息接口直接激活&lt;br&gt;(&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;TripUserInfoService&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;getTripUserInfo&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;)&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="6liErYeZMldiHp-Yd90p-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="210" as="sourcePoint" />
             <Array as="points">
@@ -32,10 +32,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6liErYeZMldiHp-Yd90p-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+        <mxCell id="6liErYeZMldiHp-Yd90p-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="45" y="340" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6liErYeZMldiHp-Yd90p-26" value="直接激活接口（极少流量）&lt;br&gt;(&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;LevelService.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;activate)&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="6liErYeZMldiHp-Yd90p-25" parent="3nuBFxr9cyL0pnOWT2aG-1">
+        <mxCell id="6liErYeZMldiHp-Yd90p-26" value="直接激活接口（极少流量）&lt;br&gt;(&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;LevelService.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;activate)&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="6liErYeZMldiHp-Yd90p-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="320" as="sourcePoint" />
             <Array as="points">
@@ -43,10 +43,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6liErYeZMldiHp-Yd90p-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+        <mxCell id="6liErYeZMldiHp-Yd90p-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="45" y="450" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6liErYeZMldiHp-Yd90p-32" value="监听FP里程流水，增加定级里程判定升级&lt;br&gt;（&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;LevelScoreHandler&lt;/span&gt;）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="6liErYeZMldiHp-Yd90p-31" parent="3nuBFxr9cyL0pnOWT2aG-1">
+        <mxCell id="6liErYeZMldiHp-Yd90p-32" value="监听FP里程流水，增加定级里程判定升级&lt;br&gt;（&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;LevelScoreHandler&lt;/span&gt;）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="6liErYeZMldiHp-Yd90p-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="430" as="sourcePoint" />
             <Array as="points">
@@ -54,24 +54,74 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6liErYeZMldiHp-Yd90p-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
-          <mxGeometry x="40" y="550" width="10" height="40" as="geometry" />
+        <mxCell id="6liErYeZMldiHp-Yd90p-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="47" y="587" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6liErYeZMldiHp-Yd90p-38" value="定时任务&lt;br&gt;（&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;LevelDueUpgradeJob&lt;/span&gt;）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="6liErYeZMldiHp-Yd90p-37" parent="3nuBFxr9cyL0pnOWT2aG-1">
+        <mxCell id="6liErYeZMldiHp-Yd90p-38" value="升级F4 T+1定时任务，扫描待升级表，校验风控人群，判定升级&lt;br&gt;（&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;LevelDueUpgradeJob&lt;/span&gt;）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="6liErYeZMldiHp-Yd90p-37" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="45" y="530" as="sourcePoint" />
+            <mxPoint x="52" y="567" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="75" y="530" />
+              <mxPoint x="82" y="567" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IkMaitz2vbiaQ1CY7moh-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="47" y="511" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IkMaitz2vbiaQ1CY7moh-2" value="如果满足升级F4，记录到待升级表&lt;br&gt;（&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;trip_level_due_upgrade&lt;/span&gt;）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="IkMaitz2vbiaQ1CY7moh-1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="52" y="491" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="82" y="491" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IkMaitz2vbiaQ1CY7moh-19" value="挑战计划、玩法活动升级会员等级" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="564.5" y="686" as="sourcePoint" />
+            <mxPoint x="50" y="686" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IkMaitz2vbiaQ1CY7moh-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="45" y="726" width="10" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="IkMaitz2vbiaQ1CY7moh-21" value="&lt;div class=&quot;lake-content&quot;&gt;升级接口&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;(&lt;span style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;LevelService.upgradeTargetLevel&lt;/span&gt;)&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="IkMaitz2vbiaQ1CY7moh-20" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="706" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="706" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IkMaitz2vbiaQ1CY7moh-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="44" y="864" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IkMaitz2vbiaQ1CY7moh-25" value="定时任务执行保级，扫描过期会员进行保级或降级&lt;br&gt;（&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;DegradeOrKeepGradeJob&lt;/span&gt;）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="IkMaitz2vbiaQ1CY7moh-24" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="49" y="844" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="79" y="844" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IkMaitz2vbiaQ1CY7moh-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="45" y="780" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IkMaitz2vbiaQ1CY7moh-29" value="&lt;div class=&quot;lake-content&quot;&gt;延期接口&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;(&lt;span style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;LevelService.prolongEffectiveTime&lt;/span&gt;)&lt;/span&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="IkMaitz2vbiaQ1CY7moh-28" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="760" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="760" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="ffatouch" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="70" width="100" height="790" as="geometry" />
+          <mxGeometry x="110" y="70" width="100" height="960" as="geometry" />
         </mxCell>
-        <mxCell id="6liErYeZMldiHp-Yd90p-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="6liErYeZMldiHp-Yd90p-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="45" y="210" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6liErYeZMldiHp-Yd90p-28" value="&lt;font style=&quot;font-size: 6px&quot;&gt;查询会员信息接口&lt;br&gt;（&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;MemberInfoService.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;getByUserIdV2&lt;/span&gt;）&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="6liErYeZMldiHp-Yd90p-27" parent="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="6liErYeZMldiHp-Yd90p-28" value="&lt;font style=&quot;font-size: 6px&quot;&gt;查询会员信息接口&lt;br&gt;（&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;MemberInfoService.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;getByUserIdV2&lt;/span&gt;）&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="3nuBFxr9cyL0pnOWT2aG-5" target="6liErYeZMldiHp-Yd90p-27" edge="1">
           <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
             <mxPoint x="50" y="190" as="sourcePoint" />
             <Array as="points">
@@ -80,7 +130,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6liErYeZMldiHp-Yd90p-29" value="" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+        <mxCell id="6liErYeZMldiHp-Yd90p-29" value="" style="html=1;verticalAlign=bottom;endArrow=block;" parent="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="60" y="220" as="sourcePoint" />
             <mxPoint x="390" y="220" as="targetPoint" />
@@ -89,26 +139,27 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6liErYeZMldiHp-Yd90p-9" value="交易激活" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6liErYeZMldiHp-Yd90p-9" value="交易激活" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="170" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="6liErYeZMldiHp-Yd90p-11" value="浏览页面&lt;br&gt;激活" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6liErYeZMldiHp-Yd90p-11" value="浏览页面&lt;br&gt;激活" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="260" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="6liErYeZMldiHp-Yd90p-30" value="定级里程&lt;br&gt;到达升级" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6liErYeZMldiHp-Yd90p-30" value="定级里程&lt;br&gt;到达升级" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="480" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="6liErYeZMldiHp-Yd90p-33" value="升级F4" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="580" width="80" height="50" as="geometry" />
+        <mxCell id="6liErYeZMldiHp-Yd90p-33" value="升级F4" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="600" width="80" height="50" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="7vobH2ZGUcvKivQAK0as" name="会员保级">
-    <mxGraphModel dx="2306" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="FzfAcr4arZtwg6y_uz9R-0" />
-        <mxCell id="FzfAcr4arZtwg6y_uz9R-1" parent="FzfAcr4arZtwg6y_uz9R-0" />
+        <mxCell id="IkMaitz2vbiaQ1CY7moh-3" value="活动升级" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="740" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IkMaitz2vbiaQ1CY7moh-18" value="营销" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="980" y="70" width="90" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="IkMaitz2vbiaQ1CY7moh-23" value="保级" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="904" width="80" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
