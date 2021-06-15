@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T09:26:00.270Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="iku7QXPmd0_1AcneV0-D" version="14.4.9" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-06-15T13:47:46.807Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="6IGLFPWuFRDfMbCsCxqJ" version="14.4.9" type="github" pages="7">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="会员升级">
-    <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1156" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -164,7 +164,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TEpL9nf_VPE4aNW2IluU" name="标准商家会员注册">
-    <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1156" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="DkOboAMjNFAbrYGXMvBq-0" />
         <mxCell id="DkOboAMjNFAbrYGXMvBq-1" parent="DkOboAMjNFAbrYGXMvBq-0" />
@@ -483,7 +483,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QCCisR-aoAAg2slhrqPY" name="离线绑定流程">
-    <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1156" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VOHiDJRWMI9PcfQdOsy7-0" />
         <mxCell id="VOHiDJRWMI9PcfQdOsy7-1" parent="VOHiDJRWMI9PcfQdOsy7-0" />
@@ -570,7 +570,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="le-n3sQNIDSQMmwZVeRz" name="商家会员信息变更流程">
-    <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1156" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="A4xjScINGQz-twdbAKy3-0" />
         <mxCell id="A4xjScINGQz-twdbAKy3-1" parent="A4xjScINGQz-twdbAKy3-0" />
@@ -637,10 +637,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ktk8go-F1e7rECoNxfBA-7" value="发送飞猪等级变更TMC消息（旧版）&lt;br&gt;（&lt;span style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;消息名称：&lt;/span&gt;&lt;a href=&quot;http://api.alibaba-inc.com/api/msg/preview?apiId=2534&amp;amp;lmkey=msgMenu-msgList&quot; target=&quot;_blank&quot; class=&quot;ng-binding&quot; style=&quot;font-size: 12px ; font-family: &amp;#34;tahoma&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simsun&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(213 , 232 , 212)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;fliggy_member_LevelChange&lt;/font&gt;&lt;/a&gt;）" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="Q5RQZGnzymP6H0pooW8f-2" target="Q5RQZGnzymP6H0pooW8f-3">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-7" value="发送飞猪等级变更TMC消息（旧版）&lt;br&gt;（&lt;span style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;消息名称：taobao_trip_PartnerLevelUpMessage&lt;/span&gt;）" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="Q5RQZGnzymP6H0pooW8f-2" target="Q5RQZGnzymP6H0pooW8f-3">
+          <mxGeometry x="0.2326" width="80" relative="1" as="geometry">
             <mxPoint x="56" y="464" as="sourcePoint" />
             <mxPoint x="136" y="464" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Q5RQZGnzymP6H0pooW8f-3" value="商家系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="A4xjScINGQz-twdbAKy3-1">
@@ -703,7 +704,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Voqrcyq8YtQ6Yv2hPzsf" name="菲住注册流程">
-    <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1156" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="l4H_P48cb-45rPkilTQ9-0" />
         <mxCell id="l4H_P48cb-45rPkilTQ9-1" parent="l4H_P48cb-45rPkilTQ9-0" />
@@ -1238,7 +1239,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rPJZ1vs4CwpqyKOUYWMH" name="一卡通百卡素材透出流程">
-    <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1156" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="OD61QTxY96yzuDVPz1Q4-0" />
         <mxCell id="OD61QTxY96yzuDVPz1Q4-1" parent="OD61QTxY96yzuDVPz1Q4-0" />
