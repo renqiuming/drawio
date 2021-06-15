@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T04:07:00.861Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="aXv6BolhBjHlsSCYTkdv" version="14.4.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-06-15T04:08:55.424Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="gsenKIV5k77Zxn9XTAsd" version="14.4.9" type="github" pages="6">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="会员升级">
     <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -163,7 +163,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="TEpL9nf_VPE4aNW2IluU" name="标准商家会员注册&amp;绑定">
+  <diagram id="TEpL9nf_VPE4aNW2IluU" name="标准商家会员注册">
     <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="DkOboAMjNFAbrYGXMvBq-0" />
@@ -703,7 +703,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Voqrcyq8YtQ6Yv2hPzsf" name="菲住注册流程">
-    <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2306" dy="1074" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="l4H_P48cb-45rPkilTQ9-0" />
         <mxCell id="l4H_P48cb-45rPkilTQ9-1" parent="l4H_P48cb-45rPkilTQ9-0" />
@@ -1056,6 +1056,14 @@
         <mxCell id="cDCjVgxFXWgXB0bkewLD-131" value="注销会员" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="l4H_P48cb-45rPkilTQ9-1">
           <mxGeometry x="20" y="1670" width="140" height="70" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7hDcjeAgqPU3dOvo8DYX" name="万豪注册流程">
+    <mxGraphModel dx="1922" dy="943" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="vXkH1Ghp8nFlma5lsdk9-0" />
+        <mxCell id="vXkH1Ghp8nFlma5lsdk9-1" parent="vXkH1Ghp8nFlma5lsdk9-0" />
       </root>
     </mxGraphModel>
   </diagram>
