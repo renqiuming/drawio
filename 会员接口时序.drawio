@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T01:28:00.908Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="34TBJVcLNy5VKkeoJrhX" version="14.4.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-15T04:06:40.521Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="uBD30TUtyEepu1GBJCNS" version="14.4.9" type="github" pages="5">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="会员升级">
     <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -570,10 +570,492 @@
     </mxGraphModel>
   </diagram>
   <diagram id="le-n3sQNIDSQMmwZVeRz" name="商家会员信息变更流程">
-    <mxGraphModel dx="2306" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="A4xjScINGQz-twdbAKy3-0" />
         <mxCell id="A4xjScINGQz-twdbAKy3-1" parent="A4xjScINGQz-twdbAKy3-0" />
+        <mxCell id="Q5RQZGnzymP6H0pooW8f-0" value="fliggyffa" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="A4xjScINGQz-twdbAKy3-1">
+          <mxGeometry x="145" y="122" width="103" height="1014" as="geometry" />
+        </mxCell>
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Q5RQZGnzymP6H0pooW8f-0">
+          <mxGeometry x="47" y="129" width="10" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-1" value="&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;监听飞猪会员等级变更Metaq消息&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;（FfaLevelChangeMsgProcessor）&lt;/pre&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="Ktk8go-F1e7rECoNxfBA-0" parent="Q5RQZGnzymP6H0pooW8f-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="52" y="109" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="82" y="109" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-2" value="发送飞猪等级变更TMC消息（新版）&lt;br&gt;（&lt;span style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;消息名称：&lt;/span&gt;&lt;a href=&quot;http://api.alibaba-inc.com/api/msg/preview?apiId=2534&amp;amp;lmkey=msgMenu-msgList&quot; target=&quot;_blank&quot; class=&quot;ng-binding&quot; style=&quot;font-family: &amp;#34;tahoma&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simsun&amp;#34; , sans-serif ; font-size: 12px ; text-align: left ; background-color: rgb(213 , 232 , 212)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;fliggy_member_LevelChange&lt;/font&gt;&lt;/a&gt;）" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="Q5RQZGnzymP6H0pooW8f-0" target="Q5RQZGnzymP6H0pooW8f-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="57" y="202" as="sourcePoint" />
+            <mxPoint x="137" y="202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-3" value="调用查询商家会员等级信息TOP接口&lt;br&gt;（&lt;a href=&quot;http://api.alibaba-inc.com/api/rest/preview?apiId=196119&amp;amp;lmkey=apiMenu-apiList&quot; target=&quot;_blank&quot; class=&quot;ng-binding&quot; style=&quot;font-family: &amp;#34;tahoma&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simsun&amp;#34; , sans-serif ; font-size: 12px ; text-align: left ; background-color: rgb(213 , 232 , 212)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;alitrip.partner.member.levelmatchinfo.get&lt;/font&gt;&lt;/a&gt;）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="Q5RQZGnzymP6H0pooW8f-0" source="Q5RQZGnzymP6H0pooW8f-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="131" y="272" as="sourcePoint" />
+            <mxPoint x="51" y="272" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-4" value="调用更新商家会员信息TOP接口&lt;br&gt;（&lt;a href=&quot;http://api.alibaba-inc.com/api/rest/preview?spm=a1z6v.8204065.c3.33.rbfhXI&amp;amp;apiId=213037&amp;amp;lmkey=apiMenu-apiList&quot; target=&quot;_blank&quot; class=&quot;ng-binding&quot; style=&quot;font-family: &amp;#34;tahoma&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simsun&amp;#34; , sans-serif ; font-size: 12px ; text-align: left ; background-color: rgb(213 , 232 , 212)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;alitrip.partner.right.status.update&lt;/font&gt;&lt;/a&gt;）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="Q5RQZGnzymP6H0pooW8f-0" source="Q5RQZGnzymP6H0pooW8f-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="136" y="324" as="sourcePoint" />
+            <mxPoint x="56" y="324" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Q5RQZGnzymP6H0pooW8f-0">
+          <mxGeometry x="47" y="660" width="10" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-15" value="刷新商家会员信息MTOP接口&lt;br&gt;(&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;FfaInterflowMemberInfoService.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;refreshMemberInfo&lt;/span&gt;)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="Ktk8go-F1e7rECoNxfBA-14" parent="Q5RQZGnzymP6H0pooW8f-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="52" y="640" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="82" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-18" value="调用查询商家会员信息奇门接口&lt;br&gt;（&lt;a href=&quot;http://api.alibaba-inc.com/api/rest/preview?apiId=182551&amp;amp;lmkey=qimenMenu-qimenList&quot; target=&quot;_blank&quot; class=&quot;ng-binding&quot; style=&quot;font-family: &amp;#34;tahoma&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simsun&amp;#34; , sans-serif ; font-size: 12px ; text-align: left ; background-color: rgb(213 , 232 , 212)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;qimen.alitrip.partner.member.info.query&lt;/font&gt;&lt;/a&gt;）" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="Q5RQZGnzymP6H0pooW8f-0" target="Q5RQZGnzymP6H0pooW8f-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="58" y="725" as="sourcePoint" />
+            <mxPoint x="138" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5RQZGnzymP6H0pooW8f-2" value="tripffa" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="A4xjScINGQz-twdbAKy3-1">
+          <mxGeometry x="423" y="122" width="106" height="1015" as="geometry" />
+        </mxCell>
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Q5RQZGnzymP6H0pooW8f-2">
+          <mxGeometry x="47" y="404" width="10" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-6" value="&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;监听飞猪会员等级变更Metaq消息&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;（&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt ; background-color: rgb(213 , 232 , 212)&quot;&gt;LevelUpgradeListener&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;）&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="Ktk8go-F1e7rECoNxfBA-5" parent="Q5RQZGnzymP6H0pooW8f-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="52" y="384" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="82" y="384" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-7" value="发送飞猪等级变更TMC消息（旧版）&lt;br&gt;（&lt;span style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;消息名称：&lt;/span&gt;&lt;a href=&quot;http://api.alibaba-inc.com/api/msg/preview?apiId=2534&amp;amp;lmkey=msgMenu-msgList&quot; target=&quot;_blank&quot; class=&quot;ng-binding&quot; style=&quot;font-size: 12px ; font-family: &amp;#34;tahoma&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simsun&amp;#34; , sans-serif ; text-align: left ; background-color: rgb(213 , 232 , 212)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;fliggy_member_LevelChange&lt;/font&gt;&lt;/a&gt;）" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="Q5RQZGnzymP6H0pooW8f-2" target="Q5RQZGnzymP6H0pooW8f-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="56" y="464" as="sourcePoint" />
+            <mxPoint x="136" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5RQZGnzymP6H0pooW8f-3" value="商家系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="A4xjScINGQz-twdbAKy3-1">
+          <mxGeometry x="687" y="122" width="101" height="1015" as="geometry" />
+        </mxCell>
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Q5RQZGnzymP6H0pooW8f-3">
+          <mxGeometry x="48" y="848" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-23" value="会员信息&lt;br&gt;变更" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="Ktk8go-F1e7rECoNxfBA-22" parent="Q5RQZGnzymP6H0pooW8f-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="53" y="828" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="83" y="828" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q5RQZGnzymP6H0pooW8f-4" value="商家会员&lt;br&gt;等级变更" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="A4xjScINGQz-twdbAKy3-1">
+          <mxGeometry x="12" y="216" width="94" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-10" value="调用更新商家会员信息TOP接口&lt;br&gt;（&lt;a href=&quot;http://api.alibaba-inc.com/api/rest/preview?spm=a1z6v.8204065.c3.33.rbfhXI&amp;amp;apiId=213037&amp;amp;lmkey=apiMenu-apiList&quot; target=&quot;_blank&quot; class=&quot;ng-binding&quot; style=&quot;font-family: &amp;quot;tahoma&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , &amp;quot;simsun&amp;quot; , sans-serif ; font-size: 12px ; text-align: left ; background-color: rgb(213 , 232 , 212)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;alitrip.partner.right.status.update&lt;/font&gt;&lt;/a&gt;）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="A4xjScINGQz-twdbAKy3-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="737" y="646" as="sourcePoint" />
+            <mxPoint x="200" y="646" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-11" value="商家会员&lt;br&gt;等级变更&lt;br&gt;&lt;span style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;旧版&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="A4xjScINGQz-twdbAKy3-1">
+          <mxGeometry x="12" y="495" width="94" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-12" value="飞猪主动更新商家会员信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="A4xjScINGQz-twdbAKy3-1">
+          <mxGeometry x="12" y="733" width="94" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-13" value="进入卡包详情" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="A4xjScINGQz-twdbAKy3-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="110" y="760" as="sourcePoint" />
+            <mxPoint x="190" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-19" value="商家更新飞猪商家会员信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="A4xjScINGQz-twdbAKy3-1">
+          <mxGeometry x="10" y="931" width="94" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Ktk8go-F1e7rECoNxfBA-21" value="调用更新商家会员信息TOP接口&lt;br&gt;（&lt;a href=&quot;http://api.alibaba-inc.com/api/rest/preview?spm=a1z6v.8204065.c3.33.rbfhXI&amp;amp;apiId=213037&amp;amp;lmkey=apiMenu-apiList&quot; target=&quot;_blank&quot; class=&quot;ng-binding&quot; style=&quot;font-family: &amp;quot;tahoma&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , &amp;quot;simsun&amp;quot; , sans-serif ; font-size: 12px ; text-align: left ; background-color: rgb(213 , 232 , 212)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;alitrip.partner.right.status.update&lt;/font&gt;&lt;/a&gt;）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="A4xjScINGQz-twdbAKy3-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="734" y="1012" as="sourcePoint" />
+            <mxPoint x="197" y="1012" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vet28PToSQggn-s8t8uj-0" value="注销会员" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="A4xjScINGQz-twdbAKy3-1">
+          <mxGeometry x="12" y="1050" width="94" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="pwLmnopT8jPrS0uVTgKZ-0" value="调用失效会员TOP接口&lt;br&gt;（&lt;a href=&quot;http://api.alibaba-inc.com/api/rest/preview?apiId=196121&amp;amp;lmkey=apiMenu-apiList&quot; target=&quot;_blank&quot; class=&quot;ng-binding&quot; style=&quot;font-family: &amp;quot;tahoma&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , &amp;quot;simsun&amp;quot; , sans-serif ; font-size: 12px ; text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot; style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;alitrip.partner.member.status.invalid&lt;/font&gt;&lt;/a&gt;）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="A4xjScINGQz-twdbAKy3-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="736" y="1080" as="sourcePoint" />
+            <mxPoint x="197" y="1080" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="593" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Voqrcyq8YtQ6Yv2hPzsf" name="菲住注册流程">
+    <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="l4H_P48cb-45rPkilTQ9-0" />
+        <mxCell id="l4H_P48cb-45rPkilTQ9-1" parent="l4H_P48cb-45rPkilTQ9-0" />
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-0" value="fliggyffa" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="l4H_P48cb-45rPkilTQ9-1">
+          <mxGeometry x="389" y="60" width="91" height="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry x="40" y="420" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-8" value="交易提交注册HSF接口&lt;br&gt;（&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;FfaInterflowRegisterWriteService.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;register4Trade&lt;/span&gt;）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="cDCjVgxFXWgXB0bkewLD-0" target="cDCjVgxFXWgXB0bkewLD-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="400" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry x="40" y="280" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-12" value="交易提交绑定HSF接口&lt;br&gt;（&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;FfaInterflowBindWriteService.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;bind4Trade&lt;/span&gt;）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="cDCjVgxFXWgXB0bkewLD-0" target="cDCjVgxFXWgXB0bkewLD-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-74" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry x="40" y="490" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-75" value="记录绑定申请单&lt;br&gt;包括注册时长、续费信息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="cDCjVgxFXWgXB0bkewLD-74" parent="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="465" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-78" value="调用触发调用到商家HSF接口&lt;br&gt;（&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;FfaInterflowRegisterWriteService.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;triggerDoRegister4Trade&lt;/span&gt;）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="cDCjVgxFXWgXB0bkewLD-0" source="cDCjVgxFXWgXB0bkewLD-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="131" y="600" as="sourcePoint" />
+            <mxPoint x="51" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-79" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry x="40" y="600" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-81" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry x="40" y="690" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-82" value="如果注册失败，从卡池获取卡号先注册成功，再异步补全卡池注册其他信息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1;exitY=0.507;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="cDCjVgxFXWgXB0bkewLD-81" parent="cDCjVgxFXWgXB0bkewLD-0" source="cDCjVgxFXWgXB0bkewLD-79">
+          <mxGeometry x="0.245" y="-10" relative="1" as="geometry">
+            <mxPoint x="55" y="670" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="71" y="670" />
+              <mxPoint x="71" y="690" />
+            </Array>
+            <mxPoint x="10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-83" value="调用查询卡池卡号HSF接口" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="cDCjVgxFXWgXB0bkewLD-0" target="cDCjVgxFXWgXB0bkewLD-33">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="51" y="720" as="sourcePoint" />
+            <mxPoint x="131" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-84" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry x="40" y="770" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-85" value="注册成功，发送补全卡池注册信息Metaq消息&lt;br&gt;（&lt;span style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;TAG：&lt;span style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;COMP_MEMBER_FROM_POOL&lt;/span&gt;&lt;/span&gt;）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="cDCjVgxFXWgXB0bkewLD-84" parent="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="750" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-86" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry x="42" y="854" width="10" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-87" value="监听补全卡池注册信息Metaq消息&lt;br&gt;（&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;ComplementPartnerMemberInfoFromPoolActionMsgProcessor&lt;/span&gt;）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="cDCjVgxFXWgXB0bkewLD-86" parent="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="47" y="834" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="77" y="834" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-94" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry x="42" y="982" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-95" value="交易提交注册HSF接口&lt;br&gt;（&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;FfaInterflowRegisterWriteService.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;register4Trade&lt;/span&gt;）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="cDCjVgxFXWgXB0bkewLD-94" parent="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="47" y="962" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="77" y="962" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-105" value="&lt;span style=&quot;text-align: left&quot;&gt;查询待过期续费会员，调用商家会员信息查询接口&lt;br&gt;（&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;FfaInterflowQueryMemberInfoService.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;queryBindRecordsBySearch&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;）&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="cDCjVgxFXWgXB0bkewLD-0" source="cDCjVgxFXWgXB0bkewLD-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="1090" as="sourcePoint" />
+            <mxPoint x="50" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-112" value="发起续期会员时长，调用会员注册HSF接口&lt;br&gt;&lt;pre style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;FfaInterflowRegisterWriteService.register&lt;/pre&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="cDCjVgxFXWgXB0bkewLD-0" source="cDCjVgxFXWgXB0bkewLD-33">
+          <mxGeometry x="-0.004" y="10" relative="1" as="geometry">
+            <mxPoint x="131" y="1230" as="sourcePoint" />
+            <mxPoint x="51" y="1230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-113" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry x="41" y="1230" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-118" value="注销会员" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="cDCjVgxFXWgXB0bkewLD-0" source="cDCjVgxFXWgXB0bkewLD-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="131" y="1370" as="sourcePoint" />
+            <mxPoint x="51" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-119" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry x="41" y="1370" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-120" value="注销接口可按注册申请单回滚对应会籍有效期，调用商家会员注销奇门接口&lt;br&gt;（&lt;a href=&quot;http://api.alibaba-inc.com/api/rest/preview?apiId=194668&amp;amp;lmkey=qimenMenu-qimenList&quot; target=&quot;_blank&quot; class=&quot;ne-link&quot;&gt;&lt;span class=&quot;ne-text&quot; style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;qimen.alitrip.partner.member.cancel&lt;/font&gt;&lt;/span&gt;&lt;/a&gt;）" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="cDCjVgxFXWgXB0bkewLD-0" target="cDCjVgxFXWgXB0bkewLD-40">
+          <mxGeometry x="0.4657" width="80" relative="1" as="geometry">
+            <mxPoint x="51" y="1440" as="sourcePoint" />
+            <mxPoint x="131" y="1440" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-33" value="hmember" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="l4H_P48cb-45rPkilTQ9-1">
+          <mxGeometry x="893" y="60" width="97" height="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-76" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="cDCjVgxFXWgXB0bkewLD-33">
+          <mxGeometry x="41" y="560" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-77" value="监听TCCP履约支付完成消息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="cDCjVgxFXWgXB0bkewLD-76" parent="cDCjVgxFXWgXB0bkewLD-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="46" y="540" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="76" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-99" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="cDCjVgxFXWgXB0bkewLD-33">
+          <mxGeometry x="41" y="1090" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-100" value="定时器查询待过期续费会员，执行续费" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="cDCjVgxFXWgXB0bkewLD-99" parent="cDCjVgxFXWgXB0bkewLD-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="46" y="1070" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="76" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-110" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="cDCjVgxFXWgXB0bkewLD-33">
+          <mxGeometry x="41" y="1200" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-111" value="监听TCCP履约支付完成消息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="cDCjVgxFXWgXB0bkewLD-110" parent="cDCjVgxFXWgXB0bkewLD-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="46" y="1180" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="76" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-116" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="cDCjVgxFXWgXB0bkewLD-33">
+          <mxGeometry x="41" y="1360" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-117" value="监听售后退款消息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="cDCjVgxFXWgXB0bkewLD-116" parent="cDCjVgxFXWgXB0bkewLD-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="46" y="1340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="76" y="1340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-125" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="cDCjVgxFXWgXB0bkewLD-33">
+          <mxGeometry x="44" y="1540" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-126" value="获取线下会员" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="cDCjVgxFXWgXB0bkewLD-125" parent="cDCjVgxFXWgXB0bkewLD-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="49" y="1520" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="79" y="1520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-40" value="商家系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="l4H_P48cb-45rPkilTQ9-1">
+          <mxGeometry x="1243" y="60" width="97" height="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-122" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="cDCjVgxFXWgXB0bkewLD-40">
+          <mxGeometry x="45" y="1500" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-123" value="线下会员注册" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="cDCjVgxFXWgXB0bkewLD-122" parent="cDCjVgxFXWgXB0bkewLD-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="1480" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="1480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-129" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="cDCjVgxFXWgXB0bkewLD-40">
+          <mxGeometry x="40" y="1610" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-130" value="注销会员" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="cDCjVgxFXWgXB0bkewLD-129" parent="cDCjVgxFXWgXB0bkewLD-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="1590" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="1590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-42" value="交易合并购卡" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="l4H_P48cb-45rPkilTQ9-1">
+          <mxGeometry x="20" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="l4H_P48cb-45rPkilTQ9-1">
+          <mxGeometry x="430" y="205" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-47" value="会员注册、绑定表单查询HSF接口&lt;br&gt;（&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;FfaInterflowRegisterService.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;getRegisterInfo4Trade&lt;/span&gt;）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="l4H_P48cb-45rPkilTQ9-1" target="cDCjVgxFXWgXB0bkewLD-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="185" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="465" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-48" value="" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="l4H_P48cb-45rPkilTQ9-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="440" y="390" as="sourcePoint" />
+            <mxPoint x="1286" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-49" value="调用商家会员绑定奇门接口&lt;br&gt;（&lt;a href=&quot;http://api.alibaba-inc.com/api/rest/preview?apiId=194667&amp;amp;lmkey=qimenMenu-qimenList&quot; target=&quot;_blank&quot; class=&quot;ng-binding&quot; style=&quot;font-family: &amp;#34;tahoma&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simsun&amp;#34; , sans-serif ; font-size: 12px ; text-align: left ; background-color: rgb(213 , 232 , 212)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;qimen.alitrip.partner.member.link&lt;/font&gt;&lt;/a&gt;）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cDCjVgxFXWgXB0bkewLD-48">
+          <mxGeometry x="-0.0209" y="-1" relative="1" as="geometry">
+            <mxPoint x="259.83" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-59" value="fliggy-buy2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="l4H_P48cb-45rPkilTQ9-1">
+          <mxGeometry x="170" y="58" width="80" height="1802" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-69" value="查询菲住卡商品及注册状态&lt;br&gt;判断是否可购卡" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="cDCjVgxFXWgXB0bkewLD-59" target="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="120" as="sourcePoint" />
+            <mxPoint x="130" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-70" value="用户勾选同意注册和绑定时&lt;br&gt;先尝试绑卡" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="cDCjVgxFXWgXB0bkewLD-59" target="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="232" as="sourcePoint" />
+            <mxPoint x="130" y="232" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-71" value="绑卡失败，进行下单注册&lt;br&gt;传卡时长等信息" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="cDCjVgxFXWgXB0bkewLD-59" target="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="422" as="sourcePoint" />
+            <mxPoint x="130" y="422" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-91" value="下单注册会员" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="cDCjVgxFXWgXB0bkewLD-59" target="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="962" as="sourcePoint" />
+            <mxPoint x="130" y="962" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-106" value="创建续费订单" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="cDCjVgxFXWgXB0bkewLD-59" target="cDCjVgxFXWgXB0bkewLD-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="1132" as="sourcePoint" />
+            <mxPoint x="50" y="1132" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-109" value="发起代扣" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="cDCjVgxFXWgXB0bkewLD-59" target="cDCjVgxFXWgXB0bkewLD-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="1152" as="sourcePoint" />
+            <mxPoint x="53" y="1152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-5" value="" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="l4H_P48cb-45rPkilTQ9-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="439" y="700" as="sourcePoint" />
+            <mxPoint x="1286" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-6" value="调用商家会员注册奇门接口&lt;br&gt;（&lt;a href=&quot;http://api.alibaba-inc.com/api/rest/preview?apiId=182552&amp;amp;lmkey=qimenMenu-qimenList&quot; target=&quot;_blank&quot; class=&quot;ng-binding&quot; style=&quot;font-family: &amp;#34;tahoma&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simsun&amp;#34; , sans-serif ; font-size: 12px ; text-align: left ; background-color: rgb(213 , 232 , 212)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;qimen.alitrip.partner.member.register&lt;/font&gt;&lt;/a&gt;）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cDCjVgxFXWgXB0bkewLD-5">
+          <mxGeometry x="-0.0209" y="-1" relative="1" as="geometry">
+            <mxPoint x="259.83" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-89" value="调用&lt;span style=&quot;font-family: &amp;#34;tahoma&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simsun&amp;#34; , sans-serif ; font-size: 12px ; text-align: left&quot;&gt;&amp;nbsp;补全通过卡池注册的商家会员信息 奇门接口&lt;/span&gt;&lt;br&gt;（&lt;a href=&quot;http://api.alibaba-inc.com/api/rest/preview?apiId=194680&amp;amp;lmkey=qimenMenu-qimenList&quot; target=&quot;_blank&quot; class=&quot;ng-binding&quot; style=&quot;font-family: &amp;#34;tahoma&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simsun&amp;#34; , sans-serif ; font-size: 12px ; text-align: left ; background-color: rgb(213 , 232 , 212)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;qimen.alitrip.partner.pool.memberinfo.complement&lt;/font&gt;&lt;/a&gt;）" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.679;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="l4H_P48cb-45rPkilTQ9-1">
+          <mxGeometry x="0.5598" y="-8" width="80" relative="1" as="geometry">
+            <mxPoint x="441" y="962.0239999999999" as="sourcePoint" />
+            <mxPoint x="1286" y="962.0239999999999" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-90" value="高德购卡" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="l4H_P48cb-45rPkilTQ9-1">
+          <mxGeometry x="20" y="990" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-96" value="" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="l4H_P48cb-45rPkilTQ9-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="440" y="1070" as="sourcePoint" />
+            <mxPoint x="1287" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-97" value="调用商家会员注册奇门接口&lt;br&gt;（&lt;a href=&quot;http://api.alibaba-inc.com/api/rest/preview?apiId=182552&amp;amp;lmkey=qimenMenu-qimenList&quot; target=&quot;_blank&quot; class=&quot;ng-binding&quot; style=&quot;font-family: &amp;quot;tahoma&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , &amp;quot;simsun&amp;quot; , sans-serif ; font-size: 12px ; text-align: left ; background-color: rgb(213 , 232 , 212)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;qimen.alitrip.partner.member.register&lt;/font&gt;&lt;/a&gt;）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cDCjVgxFXWgXB0bkewLD-96">
+          <mxGeometry x="-0.0209" y="-1" relative="1" as="geometry">
+            <mxPoint x="259.83" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-98" value="自动续费" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="l4H_P48cb-45rPkilTQ9-1">
+          <mxGeometry x="20" y="1140" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-104" value="退卡" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="l4H_P48cb-45rPkilTQ9-1">
+          <mxGeometry x="20" y="1390" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-114" value="" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="l4H_P48cb-45rPkilTQ9-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="440" y="1330" as="sourcePoint" />
+            <mxPoint x="1287" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-115" value="注册接口传时长可进行延期,调用商家会员注册奇门接口&lt;br&gt;（&lt;a href=&quot;http://api.alibaba-inc.com/api/rest/preview?apiId=182552&amp;amp;lmkey=qimenMenu-qimenList&quot; target=&quot;_blank&quot; class=&quot;ng-binding&quot; style=&quot;font-family: &amp;#34;tahoma&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simsun&amp;#34; , sans-serif ; font-size: 12px ; text-align: left ; background-color: rgb(213 , 232 , 212)&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;qimen.alitrip.partner.member.register&lt;/font&gt;&lt;/a&gt;）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cDCjVgxFXWgXB0bkewLD-114">
+          <mxGeometry x="-0.0209" y="-1" relative="1" as="geometry">
+            <mxPoint x="259.83" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-121" value="同步线下会员" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="l4H_P48cb-45rPkilTQ9-1">
+          <mxGeometry x="20" y="1523" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-127" value="调用插入会员信息HSF接口&lt;br&gt;（&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;FfaInterflowRegister4ReplaceTripffaService.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;upsertBindRecord&lt;/span&gt;）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="l4H_P48cb-45rPkilTQ9-1" source="cDCjVgxFXWgXB0bkewLD-125" target="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="1630" as="sourcePoint" />
+            <mxPoint x="440" y="1630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="1630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-128" value="调用失效会员TOP接口&lt;br&gt;（&lt;a href=&quot;http://api.alibaba-inc.com/api/rest/preview?apiId=196121&amp;amp;lmkey=apiMenu-apiList&quot; target=&quot;_blank&quot; class=&quot;ng-binding&quot; style=&quot;font-family: &amp;#34;tahoma&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simsun&amp;#34; , sans-serif ; font-size: 12px ; text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot; style=&quot;background-color: rgb(213 , 232 , 212)&quot;&gt;alitrip.partner.member.status.invalid&lt;/font&gt;&lt;/a&gt;）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="l4H_P48cb-45rPkilTQ9-1" target="cDCjVgxFXWgXB0bkewLD-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="1700" as="sourcePoint" />
+            <mxPoint x="440" y="1670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="1700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDCjVgxFXWgXB0bkewLD-131" value="注销会员" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="l4H_P48cb-45rPkilTQ9-1">
+          <mxGeometry x="20" y="1670" width="140" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
