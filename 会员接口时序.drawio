@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T13:52:20.441Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="khytEpvPRd_6vUUlUggC" version="14.4.9" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-06-15T13:56:32.971Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="YDINqFIXw0eCo4rWh4P-" version="14.4.9" type="github" pages="7">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="会员升级">
     <mxGraphModel dx="1156" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -704,7 +704,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Voqrcyq8YtQ6Yv2hPzsf" name="菲住注册流程">
-    <mxGraphModel dx="1156" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1156" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="l4H_P48cb-45rPkilTQ9-0" />
         <mxCell id="l4H_P48cb-45rPkilTQ9-1" parent="l4H_P48cb-45rPkilTQ9-0" />
