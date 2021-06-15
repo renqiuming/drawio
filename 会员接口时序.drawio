@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T04:06:40.521Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="uBD30TUtyEepu1GBJCNS" version="14.4.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-06-15T04:07:00.861Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="aXv6BolhBjHlsSCYTkdv" version="14.4.9" type="github" pages="5">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="会员升级">
     <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -913,7 +913,7 @@
         </mxCell>
         <mxCell id="cDCjVgxFXWgXB0bkewLD-130" value="注销会员" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="cDCjVgxFXWgXB0bkewLD-129" parent="cDCjVgxFXWgXB0bkewLD-40">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="45" y="1590" as="sourcePoint" />
+            <mxPoint x="50" y="1590" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="75" y="1590" />
             </Array>
