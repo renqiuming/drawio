@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T04:08:55.424Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="gsenKIV5k77Zxn9XTAsd" version="14.4.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-06-15T07:13:29.291Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="JvRxTZzhDDYZKbnvhuyM" version="14.4.9" type="github" pages="6">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="会员升级">
     <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -703,7 +703,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Voqrcyq8YtQ6Yv2hPzsf" name="菲住注册流程">
-    <mxGraphModel dx="2306" dy="1074" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="l4H_P48cb-45rPkilTQ9-0" />
         <mxCell id="l4H_P48cb-45rPkilTQ9-1" parent="l4H_P48cb-45rPkilTQ9-0" />
@@ -1064,6 +1064,63 @@
       <root>
         <mxCell id="vXkH1Ghp8nFlma5lsdk9-0" />
         <mxCell id="vXkH1Ghp8nFlma5lsdk9-1" parent="vXkH1Ghp8nFlma5lsdk9-0" />
+        <mxCell id="2xx1QRu-v4gDbVZM6_ki-0" value="fliggy-buy2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="vXkH1Ghp8nFlma5lsdk9-1">
+          <mxGeometry x="206" y="112" width="98" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="wUus7DNEyRe_eyIgckNY-4" value="&lt;span style=&quot;text-align: left&quot;&gt;会员注册、绑定表单查询HSF接口&lt;/span&gt;&lt;br style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;（&lt;/span&gt;&lt;span style=&quot;text-align: left ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;FfaInterflowRegisterService.&lt;/span&gt;&lt;span style=&quot;text-align: left ; background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;getRegisterInfo4Trade&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;）&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="2xx1QRu-v4gDbVZM6_ki-0" target="2xx1QRu-v4gDbVZM6_ki-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="323" as="sourcePoint" />
+            <mxPoint x="130" y="323" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xx1QRu-v4gDbVZM6_ki-2" value="fliggyffa" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="vXkH1Ghp8nFlma5lsdk9-1">
+          <mxGeometry x="609" y="110" width="98" height="875" as="geometry" />
+        </mxCell>
+        <mxCell id="2xx1QRu-v4gDbVZM6_ki-9" value="插入商家会员HSF接口&lt;br&gt;（&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;FfaInterflowRegister4ReplaceTripffaService.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(199 , 237 , 204) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;upsertBindRecord&lt;/span&gt;）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="2xx1QRu-v4gDbVZM6_ki-2" source="2xx1QRu-v4gDbVZM6_ki-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="131" y="213" as="sourcePoint" />
+            <mxPoint x="51" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xx1QRu-v4gDbVZM6_ki-3" value="商家系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="vXkH1Ghp8nFlma5lsdk9-1">
+          <mxGeometry x="1302" y="100" width="98" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="2xx1QRu-v4gDbVZM6_ki-1" value="hmember" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="vXkH1Ghp8nFlma5lsdk9-1">
+          <mxGeometry x="1109" y="100" width="98" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="2xx1QRu-v4gDbVZM6_ki-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2xx1QRu-v4gDbVZM6_ki-1">
+          <mxGeometry x="44" y="141" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2xx1QRu-v4gDbVZM6_ki-4" value="万豪定制店铺活动页注册" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="vXkH1Ghp8nFlma5lsdk9-1">
+          <mxGeometry x="31" y="212" width="98" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="2xx1QRu-v4gDbVZM6_ki-5" value="注册表单查询HSF接口" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="vXkH1Ghp8nFlma5lsdk9-1" target="2xx1QRu-v4gDbVZM6_ki-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="136" y="227" as="sourcePoint" />
+            <mxPoint x="758.5000000000005" y="227" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xx1QRu-v4gDbVZM6_ki-6" value="提交注册HSF接口" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="vXkH1Ghp8nFlma5lsdk9-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="135" y="251" as="sourcePoint" />
+            <mxPoint x="1151" y="251" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2xx1QRu-v4gDbVZM6_ki-8" value="调用商家注册接口" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="vXkH1Ghp8nFlma5lsdk9-1" target="2xx1QRu-v4gDbVZM6_ki-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1165" y="277" as="sourcePoint" />
+            <mxPoint x="1245" y="277" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wUus7DNEyRe_eyIgckNY-1" value="万豪日历房注册" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="vXkH1Ghp8nFlma5lsdk9-1">
+          <mxGeometry x="31" y="383" width="98" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="wUus7DNEyRe_eyIgckNY-2" value="新版下单页" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="vXkH1Ghp8nFlma5lsdk9-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="135" y="416" as="sourcePoint" />
+            <mxPoint x="253" y="416" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
