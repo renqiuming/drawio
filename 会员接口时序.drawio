@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T09:21:54.222Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="i0UejaFPOwZATJ-GnnnL" version="14.4.9" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-06-15T09:26:00.270Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="iku7QXPmd0_1AcneV0-D" version="14.4.9" type="github" pages="7">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="会员升级">
     <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1356,6 +1356,19 @@
             <Array as="points">
               <mxPoint x="1816" y="423" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrFveFr20UoAFKXwoVLx-3" value="首页推荐卡" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OD61QTxY96yzuDVPz1Q4-1">
+          <mxGeometry x="37" y="585" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MrFveFr20UoAFKXwoVLx-4" value="查询推荐卡HSF接口" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="OD61QTxY96yzuDVPz1Q4-1" source="MrFveFr20UoAFKXwoVLx-3" target="OD61QTxY96yzuDVPz1Q4-14">
+          <mxGeometry x="-0.3801" y="-24" width="80" relative="1" as="geometry">
+            <mxPoint x="182" y="776" as="sourcePoint" />
+            <mxPoint x="761" y="769.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="308" y="557" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
