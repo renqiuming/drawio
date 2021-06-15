@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T07:38:39.046Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Dw6FKXhV1XkgsT4MWPVV" version="14.4.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-06-15T07:39:48.527Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="hla6tIDHLxjnljxyJF6P" version="14.4.9" type="github" pages="6">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="会员升级">
     <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1060,7 +1060,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7hDcjeAgqPU3dOvo8DYX" name="万豪注册流程">
-    <mxGraphModel dx="1922" dy="943" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1922" dy="895" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="vXkH1Ghp8nFlma5lsdk9-0" />
         <mxCell id="vXkH1Ghp8nFlma5lsdk9-1" parent="vXkH1Ghp8nFlma5lsdk9-0" />
