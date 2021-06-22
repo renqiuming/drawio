@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T13:30:17.205Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="lCuBVlHj68g3GBuJ3Z9N" version="14.4.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-06-22T01:42:14.267Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="BWB0wy3U9WgBSzsB2xVg" version="14.4.9" type="github" pages="8">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="会员升级">
     <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1443,7 +1443,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Q0LGVACAUD_bV9FDnivz" name="注册发奖流程">
-    <mxGraphModel dx="1156" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2306" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="98vGjNE52ovDgk4cuDZa-0" />
         <mxCell id="98vGjNE52ovDgk4cuDZa-1" parent="98vGjNE52ovDgk4cuDZa-0" />
