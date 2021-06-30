@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-06-29T14:12:44.075Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="XFM8b11j9QQBXfaazy6U" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-30T02:19:50.936Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="OGoSSPMb75QHrGRvaw5N" version="14.4.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="3156" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2006" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="ffatouch&#xa;会员应用服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="会员应用服务&#xa;ffatouch" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="-632" y="40" width="100" height="890" as="geometry" />
         </mxCell>
         <mxCell id="0TNvhYBdLt-94F6KALMj-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
@@ -51,10 +51,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="ffalevel&#xa;会员等级服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="会员等级服务&#xa;ffalevel" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="58" y="40" width="100" height="900" as="geometry" />
         </mxCell>
-        <mxCell id="0TNvhYBdLt-94F6KALMj-1" value="兑换中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="0TNvhYBdLt-94F6KALMj-1" value="兑换中心&#xa;f-exchange" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="-392" y="40" width="100" height="890" as="geometry" />
         </mxCell>
         <mxCell id="0TNvhYBdLt-94F6KALMj-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="0TNvhYBdLt-94F6KALMj-1">
@@ -85,7 +85,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0TNvhYBdLt-94F6KALMj-3" value="权益中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="0TNvhYBdLt-94F6KALMj-3" value="权益中心&#xa;fr-plateform" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="-152" y="40" width="100" height="890" as="geometry" />
         </mxCell>
         <mxCell id="0TNvhYBdLt-94F6KALMj-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="0TNvhYBdLt-94F6KALMj-3">
