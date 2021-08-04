@@ -1,9 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T14:29:28.691Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="1v7dyV9360ZOLayXJH_N" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-04T14:47:33.707Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="-GGZdz5x6F-D1NX4i6aK" version="14.8.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1156" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1666" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hzbBz0ZzwS9mLOkRBPcv-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="160" width="199" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="hzbBz0ZzwS9mLOkRBPcv-2" value="user" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="217" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hzbBz0ZzwS9mLOkRBPcv-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="787" y="160" width="161" height="181" as="geometry" />
+        </mxCell>
+        <mxCell id="hzbBz0ZzwS9mLOkRBPcv-5" value="A+" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="167.5" width="50" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hzbBz0ZzwS9mLOkRBPcv-6" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;Quintica&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="816" y="208" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="hzbBz0ZzwS9mLOkRBPcv-7" value="1.submit KYC apply&amp;nbsp;" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry x="-0.0769" y="19" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="189" as="sourcePoint" />
+            <mxPoint x="330" y="189" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hzbBz0ZzwS9mLOkRBPcv-9" value="2.call ValidateIdentityAndRetrieveToken api" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry x="-0.0769" y="19" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="529" y="213" as="sourcePoint" />
+            <mxPoint x="787" y="215" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hzbBz0ZzwS9mLOkRBPcv-15" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="784" y="222" as="sourcePoint" />
+            <mxPoint x="529" y="222" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hzbBz0ZzwS9mLOkRBPcv-18" value="2.1 return Names do not match &lt;br&gt;result code and result name&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hzbBz0ZzwS9mLOkRBPcv-15">
+          <mxGeometry x="0.2292" y="2" relative="1" as="geometry">
+            <mxPoint x="-4" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hzbBz0ZzwS9mLOkRBPcv-19" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="200" as="sourcePoint" />
+            <mxPoint x="90" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hzbBz0ZzwS9mLOkRBPcv-20" value="1.1 apply success" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hzbBz0ZzwS9mLOkRBPcv-19">
+          <mxGeometry x="0.2292" y="2" relative="1" as="geometry">
+            <mxPoint x="14" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hzbBz0ZzwS9mLOkRBPcv-21" value="3.update order status init and save ID No field is failed and failed reason&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="214" width="171" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="hzbBz0ZzwS9mLOkRBPcv-24" value="4.send Message to try again&amp;nbsp;" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry x="-0.0833" y="-10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="250" as="sourcePoint" />
+            <mxPoint x="90" y="250" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hzbBz0ZzwS9mLOkRBPcv-26" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="270" as="sourcePoint" />
+            <mxPoint x="328" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hzbBz0ZzwS9mLOkRBPcv-27" value="5.queryLastKycOrder failed reason" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hzbBz0ZzwS9mLOkRBPcv-26">
+          <mxGeometry x="-0.3913" y="4" relative="1" as="geometry">
+            <mxPoint x="40" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hzbBz0ZzwS9mLOkRBPcv-28" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="310" as="sourcePoint" />
+            <mxPoint x="333" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hzbBz0ZzwS9mLOkRBPcv-29" value="6.update name or ID to retry apply kyc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hzbBz0ZzwS9mLOkRBPcv-28">
+          <mxGeometry x="-0.3913" y="4" relative="1" as="geometry">
+            <mxPoint x="40" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
