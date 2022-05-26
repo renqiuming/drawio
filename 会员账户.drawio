@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-26T03:48:21.077Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="BJj6jmxQltf0ShOGPrV3" version="16.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-26T06:07:27.710Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="sZkicW5GK55Ru1pV9n6d" version="16.0.0" type="github" pages="3">
   <diagram id="vIFnPITlcG4teuXvm_bg" name="架构">
     <mxGraphModel dx="917" dy="625" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -127,7 +127,7 @@
         <mxCell id="cFC4ZF5QBiw674-Oq0IB-50" value="profie管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="OPh2QogOOk2yxoBhQD1m-1">
           <mxGeometry x="441" y="349.5" width="83" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cFC4ZF5QBiw674-Oq0IB-51" value="重置账号" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="OPh2QogOOk2yxoBhQD1m-1">
+        <mxCell id="cFC4ZF5QBiw674-Oq0IB-51" value="重置账密" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="OPh2QogOOk2yxoBhQD1m-1">
           <mxGeometry x="441" y="379" width="83" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cFC4ZF5QBiw674-Oq0IB-52" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="OPh2QogOOk2yxoBhQD1m-1">
@@ -235,13 +235,13 @@
         <mxCell id="cFC4ZF5QBiw674-Oq0IB-93" value="&lt;span&gt;联系账户管理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="OPh2QogOOk2yxoBhQD1m-1">
           <mxGeometry x="542" y="575.5" width="97" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="cFC4ZF5QBiw674-Oq0IB-97" value="&lt;br&gt;C端会员" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="OPh2QogOOk2yxoBhQD1m-1">
+        <mxCell id="cFC4ZF5QBiw674-Oq0IB-97" value="&lt;br&gt;C端会员" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="OPh2QogOOk2yxoBhQD1m-1">
           <mxGeometry x="223.5" y="17" width="61" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="cFC4ZF5QBiw674-Oq0IB-99" value="&lt;br&gt;商家运营" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="OPh2QogOOk2yxoBhQD1m-1">
+        <mxCell id="cFC4ZF5QBiw674-Oq0IB-99" value="&lt;br&gt;商家运营" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="OPh2QogOOk2yxoBhQD1m-1">
           <mxGeometry x="398" y="17" width="61" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="cFC4ZF5QBiw674-Oq0IB-100" value="&lt;br&gt;钱包运营" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="OPh2QogOOk2yxoBhQD1m-1">
+        <mxCell id="cFC4ZF5QBiw674-Oq0IB-100" value="&lt;br&gt;钱包运营" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="OPh2QogOOk2yxoBhQD1m-1">
           <mxGeometry x="577" y="17" width="61" height="44" as="geometry" />
         </mxCell>
       </root>
@@ -347,6 +347,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="noR2HHoogAaTJK7fh2zH" name="Page-3">
+    <mxGraphModel dx="917" dy="625" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="2lrrh-gKcYBsr6vjovx_-0" />
+        <mxCell id="2lrrh-gKcYBsr6vjovx_-1" parent="2lrrh-gKcYBsr6vjovx_-0" />
       </root>
     </mxGraphModel>
   </diagram>
