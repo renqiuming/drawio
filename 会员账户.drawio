@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-28T08:52:21.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="iTC4DxJ5Eujj4GkusA0E" version="16.0.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-28T08:58:37.187Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="rs8SrUEjIawujXbow5zM" version="16.0.0" type="github" pages="7">
   <diagram id="vIFnPITlcG4teuXvm_bg" name="架构">
     <mxGraphModel dx="919" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -666,54 +666,54 @@
     </mxGraphModel>
   </diagram>
   <diagram id="765Ga6z9LvGWgfRHdoFp" name="kyc">
-    <mxGraphModel dx="919" dy="625" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="919" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="tLHo6lRw4Meu6dco2Flt-0" />
         <mxCell id="tLHo6lRw4Meu6dco2Flt-1" parent="tLHo6lRw4Meu6dco2Flt-0" />
         <mxCell id="8wrwmGnMr2-w8bEKhcff-0" value="会员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;sketch=0;strokeColor=#7EA6E0;" vertex="1" parent="tLHo6lRw4Meu6dco2Flt-1">
-          <mxGeometry x="11" y="167" width="30" height="45" as="geometry" />
+          <mxGeometry x="22" y="167" width="30" height="45" as="geometry" />
         </mxCell>
         <mxCell id="NAIXf-ci-fzHfz8DTdbR-0" value="创建KYC申请单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="tLHo6lRw4Meu6dco2Flt-1">
-          <mxGeometry x="198" y="173.5" width="90" height="47" as="geometry" />
+          <mxGeometry x="209" y="173.5" width="90" height="47" as="geometry" />
         </mxCell>
         <mxCell id="NAIXf-ci-fzHfz8DTdbR-2" value="" style="endArrow=classic;html=1;rounded=1;sketch=0;curved=0;strokeColor=#CCE5FF;" edge="1" parent="tLHo6lRw4Meu6dco2Flt-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="153" y="196.5" as="sourcePoint" />
-            <mxPoint x="195" y="196.5" as="targetPoint" />
+            <mxPoint x="164" y="196.5" as="sourcePoint" />
+            <mxPoint x="206" y="196.5" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NAIXf-ci-fzHfz8DTdbR-4" value="钱包APP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="tLHo6lRw4Meu6dco2Flt-1">
-          <mxGeometry x="64" y="173.5" width="90" height="47" as="geometry" />
+          <mxGeometry x="75" y="173.5" width="90" height="47" as="geometry" />
         </mxCell>
         <mxCell id="NAIXf-ci-fzHfz8DTdbR-8" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#CCE5FF;" edge="1" parent="tLHo6lRw4Meu6dco2Flt-1" source="NAIXf-ci-fzHfz8DTdbR-5" target="NAIXf-ci-fzHfz8DTdbR-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NAIXf-ci-fzHfz8DTdbR-5" value="资料审核" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=none;" vertex="1" parent="tLHo6lRw4Meu6dco2Flt-1">
-          <mxGeometry x="324" y="173.5" width="90" height="47" as="geometry" />
+        <mxCell id="NAIXf-ci-fzHfz8DTdbR-5" value="资料人工审核" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=none;" vertex="1" parent="tLHo6lRw4Meu6dco2Flt-1">
+          <mxGeometry x="335" y="173.5" width="90" height="47" as="geometry" />
         </mxCell>
         <mxCell id="NAIXf-ci-fzHfz8DTdbR-6" value="" style="endArrow=classic;html=1;rounded=1;sketch=0;curved=0;strokeColor=#CCE5FF;" edge="1" parent="tLHo6lRw4Meu6dco2Flt-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="288" y="199.5" as="sourcePoint" />
-            <mxPoint x="322" y="199.5" as="targetPoint" />
+            <mxPoint x="299" y="199.5" as="sourcePoint" />
+            <mxPoint x="333" y="199.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NAIXf-ci-fzHfz8DTdbR-10" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#CCE5FF;" edge="1" parent="tLHo6lRw4Meu6dco2Flt-1" source="NAIXf-ci-fzHfz8DTdbR-7" target="NAIXf-ci-fzHfz8DTdbR-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NAIXf-ci-fzHfz8DTdbR-7" value="风控检查" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="tLHo6lRw4Meu6dco2Flt-1">
-          <mxGeometry x="453" y="173.5" width="90" height="47" as="geometry" />
+          <mxGeometry x="464" y="173.5" width="90" height="47" as="geometry" />
         </mxCell>
         <mxCell id="NAIXf-ci-fzHfz8DTdbR-13" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#CCE5FF;" edge="1" parent="tLHo6lRw4Meu6dco2Flt-1" source="NAIXf-ci-fzHfz8DTdbR-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="703" y="197" as="targetPoint" />
+            <mxPoint x="714" y="197" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NAIXf-ci-fzHfz8DTdbR-9" value="反洗钱检查" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=none;" vertex="1" parent="tLHo6lRw4Meu6dco2Flt-1">
-          <mxGeometry x="582" y="173.5" width="90" height="47" as="geometry" />
+          <mxGeometry x="593" y="173.5" width="90" height="47" as="geometry" />
         </mxCell>
         <mxCell id="NAIXf-ci-fzHfz8DTdbR-12" value="更新KYC等级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="tLHo6lRw4Meu6dco2Flt-1">
-          <mxGeometry x="704" y="173.5" width="90" height="47" as="geometry" />
+          <mxGeometry x="715" y="173.5" width="90" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
