@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-28T08:58:37.187Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="rs8SrUEjIawujXbow5zM" version="16.0.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-28T09:10:37.864Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="9-MzDx-0_Ma8qS6KUbqb" version="16.0.0" type="github" pages="8">
   <diagram id="vIFnPITlcG4teuXvm_bg" name="架构">
     <mxGraphModel dx="919" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -375,7 +375,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="d5IrrdtB0JNwg3MkwzTt" name="资金账户关系">
-    <mxGraphModel dx="919" dy="625" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="919" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="I7SSRtZqa6Wx8zO1o2Fn-0" />
         <mxCell id="I7SSRtZqa6Wx8zO1o2Fn-1" parent="I7SSRtZqa6Wx8zO1o2Fn-0" />
@@ -487,7 +487,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EXIzf95RugyZxcBIZ7bt" name="模型">
-    <mxGraphModel dx="1364" dy="695" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1081" dy="695" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="2z_cK8_R1PDTubcO9oPJ-0" />
         <mxCell id="2z_cK8_R1PDTubcO9oPJ-1" parent="2z_cK8_R1PDTubcO9oPJ-0" />
@@ -661,6 +661,54 @@
         </mxCell>
         <mxCell id="FEVWbXuZk7ngV4PmGphp-0" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;角色关联关系&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;cu_rel_ip_role_to_ip_role&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;rel_biz_type&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;from_ip_role_id&lt;span style=&quot;font-size: 1em&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;to_ip_role_id&lt;br&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=center;overflow=fill;html=1;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="2z_cK8_R1PDTubcO9oPJ-1">
           <mxGeometry x="437" y="789" width="148" height="123" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yeSbQRwzK4Lo8pq_HOz7" name="账户生命周期">
+    <mxGraphModel dx="1081" dy="695" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="oQjCuOEvfpb2F03LgjX0-0" />
+        <mxCell id="oQjCuOEvfpb2F03LgjX0-1" parent="oQjCuOEvfpb2F03LgjX0-0" />
+        <mxCell id="RkKxmSH2PLKTwgY3j83k-17" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#CCE5FF;" edge="1" parent="oQjCuOEvfpb2F03LgjX0-1" source="RkKxmSH2PLKTwgY3j83k-0" target="RkKxmSH2PLKTwgY3j83k-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RkKxmSH2PLKTwgY3j83k-18" value="冻结" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="RkKxmSH2PLKTwgY3j83k-17">
+          <mxGeometry x="-0.0471" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkKxmSH2PLKTwgY3j83k-0" value="&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;ENABLE&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="oQjCuOEvfpb2F03LgjX0-1">
+          <mxGeometry x="201" y="156" width="159" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="RkKxmSH2PLKTwgY3j83k-12" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#CCE5FF;" edge="1" parent="oQjCuOEvfpb2F03LgjX0-1" source="RkKxmSH2PLKTwgY3j83k-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="173" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkKxmSH2PLKTwgY3j83k-14" value="注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="RkKxmSH2PLKTwgY3j83k-12">
+          <mxGeometry x="-0.4186" y="-1" relative="1" as="geometry">
+            <mxPoint x="9" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkKxmSH2PLKTwgY3j83k-3" value="会员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;sketch=0;strokeColor=#7EA6E0;" vertex="1" parent="oQjCuOEvfpb2F03LgjX0-1">
+          <mxGeometry x="84" y="151" width="30" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="RkKxmSH2PLKTwgY3j83k-19" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#CCE5FF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="oQjCuOEvfpb2F03LgjX0-1" source="RkKxmSH2PLKTwgY3j83k-16" target="RkKxmSH2PLKTwgY3j83k-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="451" y="271" />
+              <mxPoint x="451" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkKxmSH2PLKTwgY3j83k-20" value="解冻" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="RkKxmSH2PLKTwgY3j83k-19">
+          <mxGeometry x="0.0093" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkKxmSH2PLKTwgY3j83k-16" value="&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; ; font-size: 9.8pt&quot;&gt;DISABLE&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="oQjCuOEvfpb2F03LgjX0-1">
+          <mxGeometry x="202" y="247" width="159" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
