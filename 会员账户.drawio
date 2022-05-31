@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-31T08:31:39.710Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="d6XTylVCIUy2Nfz1ILa4" version="16.0.0" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-05-31T08:32:10.431Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="cRa9cVfnntP2C-_Vbx6q" version="16.0.0" type="github" pages="11">
   <diagram id="vIFnPITlcG4teuXvm_bg" name="架构">
     <mxGraphModel dx="1201" dy="625" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -968,7 +968,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="76zllc1UXBGrzaQM9CvA" name="注册">
-    <mxGraphModel dx="1364" dy="735" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1413" dy="735" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="L6TWFWXtM3vd8cKK8ilV-0" />
         <mxCell id="L6TWFWXtM3vd8cKK8ilV-1" parent="L6TWFWXtM3vd8cKK8ilV-0" />
@@ -1133,61 +1133,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="IvuopRr4XqVXdP_yg36h" name="登录">
-    <mxGraphModel dx="1159" dy="625" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="W6Rou74gBKT33VzGOrrm-0" />
-        <mxCell id="W6Rou74gBKT33VzGOrrm-1" parent="W6Rou74gBKT33VzGOrrm-0" />
-        <mxCell id="Fhvjy1y8_9XYq1mZ-ZKZ-0" value="操作员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;sketch=0;strokeColor=#7EA6E0;" vertex="1" parent="W6Rou74gBKT33VzGOrrm-1">
-          <mxGeometry x="11" y="167" width="30" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="Fhvjy1y8_9XYq1mZ-ZKZ-1" value="创建KYC申请单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="W6Rou74gBKT33VzGOrrm-1">
-          <mxGeometry x="198" y="173.5" width="90" height="47" as="geometry" />
-        </mxCell>
-        <mxCell id="Fhvjy1y8_9XYq1mZ-ZKZ-2" value="" style="endArrow=classic;html=1;rounded=1;sketch=0;curved=0;strokeColor=#CCE5FF;" edge="1" parent="W6Rou74gBKT33VzGOrrm-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="153" y="196.5" as="sourcePoint" />
-            <mxPoint x="195" y="196.5" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Fhvjy1y8_9XYq1mZ-ZKZ-3" value="Agent APP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="W6Rou74gBKT33VzGOrrm-1">
-          <mxGeometry x="64" y="173.5" width="90" height="47" as="geometry" />
-        </mxCell>
-        <mxCell id="Fhvjy1y8_9XYq1mZ-ZKZ-4" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#CCE5FF;" edge="1" parent="W6Rou74gBKT33VzGOrrm-1" source="Fhvjy1y8_9XYq1mZ-ZKZ-5" target="Fhvjy1y8_9XYq1mZ-ZKZ-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Fhvjy1y8_9XYq1mZ-ZKZ-5" value="资料审核" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=none;" vertex="1" parent="W6Rou74gBKT33VzGOrrm-1">
-          <mxGeometry x="324" y="173.5" width="90" height="47" as="geometry" />
-        </mxCell>
-        <mxCell id="Fhvjy1y8_9XYq1mZ-ZKZ-6" value="" style="endArrow=classic;html=1;rounded=1;sketch=0;curved=0;strokeColor=#CCE5FF;" edge="1" parent="W6Rou74gBKT33VzGOrrm-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="288" y="199.5" as="sourcePoint" />
-            <mxPoint x="322" y="199.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Fhvjy1y8_9XYq1mZ-ZKZ-7" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#CCE5FF;" edge="1" parent="W6Rou74gBKT33VzGOrrm-1" source="Fhvjy1y8_9XYq1mZ-ZKZ-8" target="Fhvjy1y8_9XYq1mZ-ZKZ-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Fhvjy1y8_9XYq1mZ-ZKZ-8" value="风控检查" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="W6Rou74gBKT33VzGOrrm-1">
-          <mxGeometry x="453" y="173.5" width="90" height="47" as="geometry" />
-        </mxCell>
-        <mxCell id="Fhvjy1y8_9XYq1mZ-ZKZ-9" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#CCE5FF;" edge="1" parent="W6Rou74gBKT33VzGOrrm-1" source="Fhvjy1y8_9XYq1mZ-ZKZ-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="703" y="197" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Fhvjy1y8_9XYq1mZ-ZKZ-10" value="反洗钱检查" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=none;" vertex="1" parent="W6Rou74gBKT33VzGOrrm-1">
-          <mxGeometry x="582" y="173.5" width="90" height="47" as="geometry" />
-        </mxCell>
-        <mxCell id="Fhvjy1y8_9XYq1mZ-ZKZ-11" value="更新KYC等级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="W6Rou74gBKT33VzGOrrm-1">
-          <mxGeometry x="704" y="173.5" width="90" height="47" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="765Ga6z9LvGWgfRHdoFp" name="kyc">
-    <mxGraphModel dx="919" dy="625" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1201" dy="625" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="tLHo6lRw4Meu6dco2Flt-0" />
         <mxCell id="tLHo6lRw4Meu6dco2Flt-1" parent="tLHo6lRw4Meu6dco2Flt-0" />
