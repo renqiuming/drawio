@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-27T08:49:14.431Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="OtREuoFmdGypR1TyTrHF" version="18.2.0" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-06-27T09:03:03.305Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="S9_yqBONOK3sE3xT5uHp" version="18.2.0" type="github" pages="12">
   <diagram id="vIFnPITlcG4teuXvm_bg" name="架构">
     <mxGraphModel dx="919" dy="625" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1579,7 +1579,7 @@
         <mxCell id="I7KmhC4vRd_a75Wr6BiR-33" value="Biometric&lt;br&gt;Login" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="225.5" y="431" width="83" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-34" value="Create Account" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-34" value="Create Fund Account" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="115" y="470" width="83" height="35" as="geometry" />
         </mxCell>
         <mxCell id="I7KmhC4vRd_a75Wr6BiR-35" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
@@ -1603,7 +1603,7 @@
         <mxCell id="I7KmhC4vRd_a75Wr6BiR-41" value="Profie&lt;br&gt;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="441" y="349.5" width="83" height="34.5" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-42" value="重置账密" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-42" value="Reset Login ID&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="441" y="391" width="83" height="34" as="geometry" />
         </mxCell>
         <mxCell id="I7KmhC4vRd_a75Wr6BiR-43" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
@@ -1612,31 +1612,31 @@
         <mxCell id="I7KmhC4vRd_a75Wr6BiR-44" value="Relation Info&lt;br&gt;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="539" y="316.5" width="99" height="27.5" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-45" value="绑定/解绑卡" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-45" value="Binding Card" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="547" y="349.5" width="83" height="35.5" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-46" value="用户资产管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-46" value="User Asset Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="547" y="391" width="83" height="35" as="geometry" />
         </mxCell>
         <mxCell id="I7KmhC4vRd_a75Wr6BiR-47" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="387" y="537" width="61" height="17" as="geometry" />
+          <mxGeometry x="388" y="541" width="61" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-48" value="个人信息认证" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-48" value="Personal Info&lt;br&gt;A&lt;a style=&quot;color: rgb(0, 0, 0); text-decoration-line: none; font-family: Arial, Arial, Helvetica, sans-serif; text-align: left;&quot; href=&quot;https://cn.bing.com/dict/search?q=authentication&amp;amp;FORM=BDVSP6&amp;amp;cc=cn&quot;&gt;uthentication&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="694.75" y="534" width="81" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-49" value="企业信息认证" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-49" value="Company Info&lt;br&gt;A&lt;a style=&quot;color: rgb(0, 0, 0); text-decoration-line: none; font-family: Arial, Arial, Helvetica, sans-serif; text-align: left;&quot; href=&quot;https://cn.bing.com/dict/search?q=authentication&amp;amp;FORM=BDVSP6&amp;amp;cc=cn&quot;&gt;uthentication&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="694.75" y="578.5" width="81" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-50" value="反洗钱识别" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-50" value="AML" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="694.75" y="624" width="81" height="40.5" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-51" value="三方系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-51" value="3-Party System" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="685.75" y="491" width="100.5" height="33" as="geometry" />
         </mxCell>
         <mxCell id="I7KmhC4vRd_a75Wr6BiR-52" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="686.5" y="326" width="102" height="153" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-53" value="二方系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-53" value="2-Party System" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="686.5" y="324" width="100.5" height="35" as="geometry" />
         </mxCell>
         <mxCell id="I7KmhC4vRd_a75Wr6BiR-54" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#dae8fc;" vertex="1" parent="1">
@@ -1666,49 +1666,49 @@
         <mxCell id="I7KmhC4vRd_a75Wr6BiR-62" value="OTP Verification" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="333" y="471" width="83" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-63" value="重置密码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-63" value="Reset Password" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="441" y="431" width="83" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-64" value="冻结/解冻账号" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-64" value="Freezon&lt;br&gt;Account" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="441" y="472" width="83" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-65" value="&lt;span&gt;各联系人管理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-65" value="&lt;span&gt;Congtacts&amp;nbsp;&lt;br&gt;&lt;/span&gt;Management&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="547" y="433" width="83" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-66" value="消息通知管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-66" value="Notifacation&lt;br&gt;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="547" y="472" width="83" height="36" as="geometry" />
         </mxCell>
         <mxCell id="I7KmhC4vRd_a75Wr6BiR-67" value="OTP Login" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="225" y="393" width="83" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-68" value="参与者管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-68" value="Involved Party&lt;br&gt;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="109" y="600.5" width="97" height="33.5" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-69" value="登录账号管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-69" value="Login ID&lt;br&gt;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="218" y="601" width="96" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-70" value="联系方式管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-70" value="Contact Way&lt;br&gt;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="325" y="600.5" width="97" height="34.5" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-71" value="&lt;span style=&quot;&quot;&gt;资金账户关联&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-71" value="Related Fund Account" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="434" y="600.5" width="97" height="34.5" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-72" value="&lt;span style=&quot;&quot;&gt;角色状态管理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-72" value="&lt;span style=&quot;&quot;&gt;Role Status&lt;br&gt;Management&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="542" y="601" width="97" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-73" value="参与者角色管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-73" value="Involved Party Role Manage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="109.5" y="644" width="97" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-74" value="密码管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-74" value="Password&lt;br&gt;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="218.5" y="644.5" width="96" height="31.5" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-75" value="&lt;span style=&quot;&quot;&gt;联系账户管理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-75" value="Contact Account&lt;br&gt;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="325.5" y="644" width="97" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-76" value="&lt;span style=&quot;&quot;&gt;资源信息管理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-76" value="&lt;span style=&quot;&quot;&gt;Resources&lt;br&gt;&lt;/span&gt;Management&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="434.5" y="644" width="97" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-77" value="角色关联管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-77" value="Role Relation&lt;br&gt;Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="542.5" y="644.5" width="97" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="I7KmhC4vRd_a75Wr6BiR-78" value="&lt;br&gt;Member" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
