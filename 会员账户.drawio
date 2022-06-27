@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-23T08:46:16.571Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="7Qb6e11uqmEz82SD2odL" version="18.2.0" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-06-27T08:25:04.265Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="_Cx6wDZZiXBCMtC4VQi7" version="18.2.0" type="github" pages="11">
   <diagram id="vIFnPITlcG4teuXvm_bg" name="架构">
-    <mxGraphModel dx="2066" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="919" dy="625" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="OPh2QogOOk2yxoBhQD1m-0" />
         <mxCell id="OPh2QogOOk2yxoBhQD1m-1" parent="OPh2QogOOk2yxoBhQD1m-0" />
@@ -488,7 +488,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EnMOM85wTjll_reYV_xW" name="agent 账号关系">
-    <mxGraphModel dx="2066" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="919" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="MDu_FXY2_988vJYForrx-0" />
         <mxCell id="MDu_FXY2_988vJYForrx-1" parent="MDu_FXY2_988vJYForrx-0" />
