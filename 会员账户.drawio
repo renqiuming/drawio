@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T09:21:55.165Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="WqE3gCJyjqEGbXxe2ZvC" version="20.0.4" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2022-07-25T09:23:44.527Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="TSjv43UI0i9vyj_TxO6P" version="20.0.4" type="github" pages="18">
   <diagram id="vIFnPITlcG4teuXvm_bg" name="架构">
     <mxGraphModel dx="2350" dy="1276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2516,7 +2516,7 @@
             <mxPoint x="552" y="209.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gqsDqT7GD6095HhSv8wM-32" value="3. push parameter" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#000000;rotation=45;" vertex="1" connectable="0" parent="gqsDqT7GD6095HhSv8wM-30">
+        <mxCell id="gqsDqT7GD6095HhSv8wM-32" value="3. push config" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#000000;rotation=45;" vertex="1" connectable="0" parent="gqsDqT7GD6095HhSv8wM-30">
           <mxGeometry x="-0.2699" relative="1" as="geometry">
             <mxPoint x="40" y="56" as="offset" />
           </mxGeometry>
@@ -2655,7 +2655,7 @@
             <mxPoint x="546" y="796.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gqsDqT7GD6095HhSv8wM-84" value="3. push parameter" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#000000;rotation=45;" vertex="1" connectable="0" parent="gqsDqT7GD6095HhSv8wM-83">
+        <mxCell id="gqsDqT7GD6095HhSv8wM-84" value="3. push config" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#000000;rotation=45;" vertex="1" connectable="0" parent="gqsDqT7GD6095HhSv8wM-83">
           <mxGeometry x="-0.2699" relative="1" as="geometry">
             <mxPoint x="54" y="71" as="offset" />
           </mxGeometry>
@@ -2805,7 +2805,7 @@
             <mxPoint x="539" y="1386.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gqsDqT7GD6095HhSv8wM-125" value="3. push parameter" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#000000;rotation=45;" vertex="1" connectable="0" parent="gqsDqT7GD6095HhSv8wM-124">
+        <mxCell id="gqsDqT7GD6095HhSv8wM-125" value="3. push config" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#000000;rotation=45;" vertex="1" connectable="0" parent="gqsDqT7GD6095HhSv8wM-124">
           <mxGeometry x="-0.2699" relative="1" as="geometry">
             <mxPoint x="58" y="75" as="offset" />
           </mxGeometry>
