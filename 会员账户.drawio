@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-26T03:45:33.604Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="j2ZuOalBc0I9dKLGKwLp" version="20.0.4" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2022-07-26T04:06:40.587Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="y4z5AKLIBB3tyVpBlIWf" version="20.0.4" type="github" pages="18">
   <diagram id="vIFnPITlcG4teuXvm_bg" name="架构">
     <mxGraphModel dx="2350" dy="1276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3179,17 +3179,6 @@
         <mxCell id="gqsDqT7GD6095HhSv8wM-285" value="X" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FF3333;" vertex="1" connectable="0" parent="gqsDqT7GD6095HhSv8wM-283">
           <mxGeometry x="0.8631" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gqsDqT7GD6095HhSv8wM-286" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeColor=#7EA6E0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="301" y="1002" as="sourcePoint" />
-            <mxPoint x="561" y="1250.25" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gqsDqT7GD6095HhSv8wM-287" value="2. push package" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#000000;rotation=45;" vertex="1" connectable="0" parent="gqsDqT7GD6095HhSv8wM-286">
-          <mxGeometry x="-0.2699" relative="1" as="geometry">
-            <mxPoint x="26" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gqsDqT7GD6095HhSv8wM-288" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;strokeColor=#7EA6E0;entryX=0.449;entryY=0.002;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="gqsDqT7GD6095HhSv8wM-210" target="gqsDqT7GD6095HhSv8wM-225">
