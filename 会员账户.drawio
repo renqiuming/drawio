@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T13:15:04.804Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="7xvAd5VkW4k-tK5L5JiH" version="20.0.4" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2022-07-29T11:05:13.301Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="23Idz9JOFfmRqdh05uVx" version="20.0.4" type="github" pages="18">
   <diagram id="vIFnPITlcG4teuXvm_bg" name="架构">
     <mxGraphModel dx="2350" dy="1276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1540,7 +1540,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MgHLPOKQDey8sfeUKlZ3" name="账号Model 英文">
-    <mxGraphModel dx="1414" dy="541" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2434" dy="1021" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
