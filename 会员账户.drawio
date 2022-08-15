@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T02:28:19.512Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="lZRczfuGU7S0_dsuED3k" version="20.0.4" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2022-08-15T13:57:25.589Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="yUc309-UfLmGzF4FrLk1" version="20.0.4" type="github" pages="18">
   <diagram id="vIFnPITlcG4teuXvm_bg" name="架构">
     <mxGraphModel dx="2542" dy="1276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -419,7 +419,7 @@
         <mxCell id="I7KmhC4vRd_a75Wr6BiR-13" value="custmng" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="643" y="193" width="106" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="I7KmhC4vRd_a75Wr6BiR-14" value="Business&lt;br&gt;Services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="I7KmhC4vRd_a75Wr6BiR-14" value="Product&lt;br&gt;Services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="17" y="287" width="76" height="247" as="geometry" />
         </mxCell>
         <mxCell id="I7KmhC4vRd_a75Wr6BiR-15" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
@@ -3027,7 +3027,7 @@
         <mxCell id="gqsDqT7GD6095HhSv8wM-247" value="Local Site&amp;nbsp; Owner" style="shape=umlFrame;whiteSpace=wrap;html=1;width=108;height=30;" vertex="1" parent="1">
           <mxGeometry x="530" y="2591" width="527" height="506" as="geometry" />
         </mxCell>
-        <mxCell id="gqsDqT7GD6095HhSv8wM-248" value="&lt;span style=&quot;caret-color: rgb(46, 46, 46); color: rgb(46, 46, 46); font-family: Hei; font-size: 13px; text-align: start; text-size-adjust: auto;&quot;&gt;58 Env Center&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="gqsDqT7GD6095HhSv8wM-248" value="&lt;span style=&quot;caret-color: rgb(46, 46, 46); color: rgb(46, 46, 46); font-family: Hei; font-size: 13px; text-align: start; text-size-adjust: auto;&quot;&gt;&lt;span style=&quot;text-size-adjust: auto;&quot;&gt;Singapore&lt;/span&gt;&amp;nbsp;Env Center （New）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-50" y="2654" width="337" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gqsDqT7GD6095HhSv8wM-249" value="&lt;span style=&quot;caret-color: rgb(46, 46, 46); color: rgb(46, 46, 46); font-family: Hei; font-size: 13px; text-size-adjust: auto;&quot;&gt;Black-Box App&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=none;align=center;verticalAlign=middle;" vertex="1" parent="1">
@@ -3164,11 +3164,6 @@
         <mxCell id="gqsDqT7GD6095HhSv8wM-284" value="&lt;font color=&quot;#000000&quot;&gt;1.Call api to package (by code tag etc)&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FF3333;" vertex="1" connectable="0" parent="gqsDqT7GD6095HhSv8wM-283">
           <mxGeometry x="-0.0805" y="1" relative="1" as="geometry">
             <mxPoint x="-68" y="-15" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gqsDqT7GD6095HhSv8wM-285" value="X" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FF3333;" vertex="1" connectable="0" parent="gqsDqT7GD6095HhSv8wM-283">
-          <mxGeometry x="0.8631" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gqsDqT7GD6095HhSv8wM-288" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;strokeColor=#7EA6E0;entryX=0.449;entryY=0.002;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="gqsDqT7GD6095HhSv8wM-210" target="gqsDqT7GD6095HhSv8wM-225">
