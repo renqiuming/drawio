@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T06:10:32.972Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Bk6mqp7OV7t4JQgRH2vQ" version="20.2.7" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2022-09-21T07:22:24.342Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="TmFKYiIo9iGHgT3CNBfH" version="20.2.7" type="github" pages="19">
   <diagram id="vIFnPITlcG4teuXvm_bg" name="架构">
     <mxGraphModel dx="2350" dy="1275" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3477,7 +3477,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gqsDqT7GD6095HhSv8wM-369" value="南非站点：仅账务是如下打包方式，推送配置网络未打通" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="87" y="-1543" width="485" height="30" as="geometry" />
+          <mxGeometry x="87" y="-1543" width="363" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gqsDqT7GD6095HhSv8wM-370" value="Ant&amp;nbsp; Owner" style="shape=umlFrame;whiteSpace=wrap;html=1;width=90;height=28;" parent="1" vertex="1">
           <mxGeometry x="-173" y="1462" width="523" height="503" as="geometry" />
