@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T06:48:14.457Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="l4DdA240rIYkGGVcjG-J" version="20.2.7" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2022-09-30T06:51:18.347Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="D77LeoOMde9_99jBkv4b" version="20.2.7" type="github" pages="19">
   <diagram id="vIFnPITlcG4teuXvm_bg" name="架构">
     <mxGraphModel dx="2350" dy="1275" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2488,7 +2488,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yCX1nFrSy4BvrmxSxx8C" name="站点黑盒应用配置">
-    <mxGraphModel dx="2750" dy="2875" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2193" dy="2725" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
