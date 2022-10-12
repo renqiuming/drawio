@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T13:42:58.597Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ra9GCg2yE7TW-QQp2cuJ" version="20.4.0" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2022-10-12T13:43:26.818Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qcVwky-ZS-q5fhu8QCSQ" version="20.4.0" type="github" pages="19">
   <diagram id="vIFnPITlcG4teuXvm_bg" name="架构">
     <mxGraphModel dx="2350" dy="1276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3666,8 +3666,8 @@
         <mxCell id="vQgpI-Lpq6AGt4tHlPsD-23" value="3.update component version in the light application and package&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-345" y="3702" width="191" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="vQgpI-Lpq6AGt4tHlPsD-25" value="4.pull from the latest version component jar from Maven repository" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="39" y="3719" width="128" height="30" as="geometry" />
+        <mxCell id="vQgpI-Lpq6AGt4tHlPsD-25" value="4.pull from the latest version component jar from&amp;nbsp;central&lt;br&gt;Maven repository" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="17" y="3718" width="175" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
