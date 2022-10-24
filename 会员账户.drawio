@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T06:40:39.425Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="XU2QDk8NW8GPNPrjUwWx" version="20.4.0" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2022-10-24T06:42:04.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="07X5qtRcMLdhwwFE-78L" version="20.4.0" type="github" pages="20">
   <diagram id="vIFnPITlcG4teuXvm_bg" name="架构">
     <mxGraphModel dx="2350" dy="1276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2488,7 +2488,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yCX1nFrSy4BvrmxSxx8C" name="站点黑盒应用配置">
-    <mxGraphModel dx="2214" dy="2276" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2568" dy="2366" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3818,13 +3818,13 @@
         </mxCell>
         <mxCell id="p7q1_CTNTBDeoPkR6FOA-30" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;strokeColor=#7EA6E0;entryX=0.93;entryY=0.329;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="p7q1_CTNTBDeoPkR6FOA-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2177" y="2675" as="sourcePoint" />
+            <mxPoint x="2057" y="2675" as="sourcePoint" />
             <mxPoint x="1788" y="2671" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p7q1_CTNTBDeoPkR6FOA-31" value="&lt;font color=&quot;#000000&quot;&gt;3.Call api to package &lt;br&gt;(by code tag、antx properties)&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FF3333;" vertex="1" connectable="0" parent="p7q1_CTNTBDeoPkR6FOA-30">
           <mxGeometry x="-0.0805" y="1" relative="1" as="geometry">
-            <mxPoint x="-71" y="-28" as="offset" />
+            <mxPoint x="-11" y="-29" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p7q1_CTNTBDeoPkR6FOA-32" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;strokeColor=#7EA6E0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="p7q1_CTNTBDeoPkR6FOA-43">
@@ -3879,17 +3879,12 @@
         <mxCell id="p7q1_CTNTBDeoPkR6FOA-47" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;strokeColor=#7EA6E0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1741" y="2695" as="sourcePoint" />
-            <mxPoint x="2056" y="2699" as="targetPoint" />
+            <mxPoint x="2056" y="2698" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p7q1_CTNTBDeoPkR6FOA-49" value="6." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;" vertex="1" connectable="0" parent="p7q1_CTNTBDeoPkR6FOA-47">
-          <mxGeometry x="-0.3806" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="p7q1_CTNTBDeoPkR6FOA-50" value="notify" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;" vertex="1" connectable="0" parent="p7q1_CTNTBDeoPkR6FOA-47">
+        <mxCell id="p7q1_CTNTBDeoPkR6FOA-50" value="6.notify push package result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;" vertex="1" connectable="0" parent="p7q1_CTNTBDeoPkR6FOA-47">
           <mxGeometry x="-0.2345" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="44" y="12" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
