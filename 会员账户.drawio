@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T12:54:24.411Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="i7YC1_MS0m-O5ZF2A1Tw" version="20.4.0" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2022-10-25T02:42:33.885Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="4XDaTcA_d5CyaN-oXx5F" version="20.4.0" type="github" pages="20">
   <diagram id="vIFnPITlcG4teuXvm_bg" name="架构">
     <mxGraphModel dx="2350" dy="1276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2488,7 +2488,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yCX1nFrSy4BvrmxSxx8C" name="站点黑盒应用配置">
-    <mxGraphModel dx="2869" dy="2582" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2291" dy="2312" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3772,9 +3772,9 @@
             <mxPoint x="110" y="6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p7q1_CTNTBDeoPkR6FOA-17" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#7EA6E0;" edge="1" parent="1" source="p7q1_CTNTBDeoPkR6FOA-11" target="p7q1_CTNTBDeoPkR6FOA-29">
+        <mxCell id="p7q1_CTNTBDeoPkR6FOA-17" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#7EA6E0;" edge="1" parent="1" target="p7q1_CTNTBDeoPkR6FOA-29">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1641.6" y="2727" as="sourcePoint" />
+            <mxPoint x="2339" y="2717" as="sourcePoint" />
             <mxPoint x="2438.1" y="2783" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -3852,7 +3852,7 @@
         </mxCell>
         <mxCell id="p7q1_CTNTBDeoPkR6FOA-36" value="&lt;font color=&quot;#000000&quot;&gt;2.push confiig&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FF3333;" vertex="1" connectable="0" parent="p7q1_CTNTBDeoPkR6FOA-35">
           <mxGeometry x="-0.5177" y="-1" relative="1" as="geometry">
-            <mxPoint x="118" y="-12" as="offset" />
+            <mxPoint x="140" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p7q1_CTNTBDeoPkR6FOA-37" value="&lt;font color=&quot;#000000&quot;&gt;7.deploy app&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FF3333;" vertex="1" connectable="0" parent="1">
@@ -3860,7 +3860,7 @@
         </mxCell>
         <mxCell id="p7q1_CTNTBDeoPkR6FOA-38" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;strokeColor=#7EA6E0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2337.1000000000004" y="2713" as="sourcePoint" />
+            <mxPoint x="2337" y="2719" as="sourcePoint" />
             <mxPoint x="2310.1000000000004" y="3003" as="targetPoint" />
           </mxGeometry>
         </mxCell>
