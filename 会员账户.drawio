@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T03:16:36.852Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="QAyeFLLTukvbVnU3Co26" version="20.4.0" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2022-10-31T06:10:04.347Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="M4UK4pfM7ZSVfAFETAsL" version="20.4.0" type="github" pages="20">
   <diagram id="vIFnPITlcG4teuXvm_bg" name="架构">
-    <mxGraphModel dx="2350" dy="1276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1417" dy="676" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="OPh2QogOOk2yxoBhQD1m-0" />
         <mxCell id="OPh2QogOOk2yxoBhQD1m-1" parent="OPh2QogOOk2yxoBhQD1m-0" />
@@ -248,7 +248,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lSRVKqX5UYKnXGmv3FwQ" name="应用架构-英文">
-    <mxGraphModel dx="2350" dy="1276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2690" dy="1276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -376,7 +376,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8qlaHi-g6ceebs3bF18L" name="架构-英文">
-    <mxGraphModel dx="1074" dy="676" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1574" dy="739" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2205,7 +2205,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EvUgw4EURZYIFuW_7hnn" name="重置密码">
-    <mxGraphModel dx="2750" dy="1276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1659" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="YNRApUJXEHa3zJhrUl57-0" />
         <mxCell id="YNRApUJXEHa3zJhrUl57-1" parent="YNRApUJXEHa3zJhrUl57-0" />
@@ -2365,7 +2365,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-3OIiePejHT5AeTQOpwR" name="三方登录流程">
-    <mxGraphModel dx="3890" dy="1676" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2459" dy="991" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2488,7 +2488,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yCX1nFrSy4BvrmxSxx8C" name="站点黑盒应用配置">
-    <mxGraphModel dx="3362" dy="2815" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2126" dy="2222" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3507,7 +3507,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vQgpI-Lpq6AGt4tHlPsD-16" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Maven Repository&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;globaltech central repository&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Group:Comp-Release&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot; size=&quot;3&quot;&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;align=center;" parent="1" vertex="1">
-          <mxGeometry x="92" y="3564" width="208" height="96" as="geometry" />
+          <mxGeometry x="152" y="3564" width="208" height="96" as="geometry" />
         </mxCell>
         <mxCell id="vQgpI-Lpq6AGt4tHlPsD-18" value="2.Deploy component jar to maven repository" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="30" y="3445" width="128" height="30" as="geometry" />
@@ -3530,61 +3530,8 @@
         <mxCell id="vQgpI-Lpq6AGt4tHlPsD-23" value="3.update component version in the light application and package&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="-345" y="3702" width="191" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="vQgpI-Lpq6AGt4tHlPsD-25" value="4.pull from the latest version component jar from&amp;nbsp;central&lt;br&gt;Maven repository" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="17" y="3718" width="175" height="31" as="geometry" />
-        </mxCell>
-        <mxCell id="80c8K9ugTMZLcZYtE1Sm-1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Local&amp;nbsp; dependency component Jar&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=202;height=32;" vertex="1" parent="1">
-          <mxGeometry x="-416" y="4254" width="441" height="229" as="geometry" />
-        </mxCell>
-        <mxCell id="80c8K9ugTMZLcZYtE1Sm-2" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Local Site Side&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=33;" vertex="1" parent="1">
-          <mxGeometry x="-416" y="3985" width="438" height="215" as="geometry" />
-        </mxCell>
-        <mxCell id="80c8K9ugTMZLcZYtE1Sm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="80c8K9ugTMZLcZYtE1Sm-4" target="80c8K9ugTMZLcZYtE1Sm-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-194" y="4106" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="80c8K9ugTMZLcZYtE1Sm-4" value="Local site Developer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-368" y="4076" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="80c8K9ugTMZLcZYtE1Sm-5" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(38, 38, 38); font-family: &amp;quot;Chinese Quote&amp;quot;, -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;Envcenter&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-157" y="4079" width="149" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="80c8K9ugTMZLcZYtE1Sm-6" value="1.build package and push env config" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="4066" width="159" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="80c8K9ugTMZLcZYtE1Sm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="80c8K9ugTMZLcZYtE1Sm-5" target="80c8K9ugTMZLcZYtE1Sm-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="158" y="4106" as="targetPoint" />
-            <mxPoint x="-328" y="4116" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="80c8K9ugTMZLcZYtE1Sm-8" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Maven Repository&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;globaltech central repository&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Group:Comp-Release&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot; size=&quot;3&quot;&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;align=center;" vertex="1" parent="1">
-          <mxGeometry x="96" y="4187" width="208" height="96" as="geometry" />
-        </mxCell>
-        <mxCell id="80c8K9ugTMZLcZYtE1Sm-9" value="2.Deploy component jar to maven repository" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="34" y="4068" width="128" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="80c8K9ugTMZLcZYtE1Sm-10" value="Local site Developer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-375" y="4344" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="80c8K9ugTMZLcZYtE1Sm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="80c8K9ugTMZLcZYtE1Sm-12" target="80c8K9ugTMZLcZYtE1Sm-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="80c8K9ugTMZLcZYtE1Sm-12" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Chinese Quote, -apple-system, system-ui, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif&quot; color=&quot;#262626&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Envcenter&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="4353" width="149" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="80c8K9ugTMZLcZYtE1Sm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-161" y="4379" as="targetPoint" />
-            <mxPoint x="-342" y="4379" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="80c8K9ugTMZLcZYtE1Sm-14" value="3.update component version in the light application and package&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-341" y="4325" width="191" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="80c8K9ugTMZLcZYtE1Sm-15" value="4.pull from the latest version component jar from&amp;nbsp;central&lt;br&gt;Maven repository" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="21" y="4341" width="175" height="31" as="geometry" />
+        <mxCell id="vQgpI-Lpq6AGt4tHlPsD-25" value="4.if local Maven repository&amp;nbsp;not exist the latest version component jar&lt;br&gt;, pull it&amp;nbsp; from&amp;nbsp;central Maven repository" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="29" y="3711" width="203" height="31" as="geometry" />
         </mxCell>
         <mxCell id="p7q1_CTNTBDeoPkR6FOA-1" value="&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;Singapore（Ant Owner）&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=173;height=31;" vertex="1" parent="1">
           <mxGeometry x="-177" y="2571" width="523" height="635" as="geometry" />
@@ -4236,7 +4183,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="H1PibKBdx-qVTAlDBw7e" name="临时">
-    <mxGraphModel dx="2690" dy="1276" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1259" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
