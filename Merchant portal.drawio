@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T04:51:43.729Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="-gN2zlyE0brTxmTG0H7t" version="20.4.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-05T05:08:42.457Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="HGTuyB4dT-hzKPtJS3Yj" version="20.4.0" type="github" pages="5">
   <diagram id="l6IjyZo5fdcpN0Skcl8L" name="架构图">
     <mxGraphModel dx="1712" dy="905" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -440,19 +440,19 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Nk7W8kdHPDKT0B_NWfbK" name="模型">
-    <mxGraphModel dx="3007" dy="913" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2605" dy="675" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="pGexDTaWi78THyk2sIxy-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#7EA6E0;" vertex="1" parent="1">
-          <mxGeometry x="-728" y="466" width="1443" height="704" as="geometry" />
+          <mxGeometry x="-728" y="466" width="1370" height="704" as="geometry" />
         </mxCell>
         <mxCell id="pGexDTaWi78THyk2sIxy-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#7EA6E0;" vertex="1" parent="1">
-          <mxGeometry x="-728" y="1170" width="1443" height="409" as="geometry" />
+          <mxGeometry x="-728" y="1170" width="1370" height="409" as="geometry" />
         </mxCell>
         <mxCell id="Rt6S2faH1RN6G7ZhlYwz-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.014;entryY=0.394;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="Rt6S2faH1RN6G7ZhlYwz-22" target="Rt6S2faH1RN6G7ZhlYwz-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="493" y="558" as="sourcePoint" />
+            <mxPoint x="429" y="560" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt6S2faH1RN6G7ZhlYwz-77" value="1 ： n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rt6S2faH1RN6G7ZhlYwz-76">
@@ -461,13 +461,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt6S2faH1RN6G7ZhlYwz-22" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Access Token&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;apcif.cu_access_token&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;ip_token_id&lt;br&gt;ip_token_status&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=center;overflow=fill;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="315" y="481" width="156" height="85" as="geometry" />
+          <mxGeometry x="251" y="483" width="156" height="85" as="geometry" />
         </mxCell>
         <mxCell id="Rt6S2faH1RN6G7ZhlYwz-24" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Login ID&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;apcif.cu_access_token_alias&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;ip_token_id&lt;br&gt;alias_type (email)&lt;br&gt;alias_value&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 1em&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=center;overflow=fill;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="527" y="481" width="162" height="104" as="geometry" />
+          <mxGeometry x="463" y="483" width="162" height="104" as="geometry" />
         </mxCell>
         <mxCell id="Rt6S2faH1RN6G7ZhlYwz-26" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Password&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;apcif.cu_identification&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;ident_target_type&lt;br&gt;ident_target_id&lt;br&gt;ident_value&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 1em&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=center;overflow=fill;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="318" y="607" width="162" height="102" as="geometry" />
+          <mxGeometry x="254" y="609" width="162" height="102" as="geometry" />
         </mxCell>
         <mxCell id="Rt6S2faH1RN6G7ZhlYwz-46" value="1：n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rt6S2faH1RN6G7ZhlYwz-44" target="Rt6S2faH1RN6G7ZhlYwz-45">
           <mxGeometry relative="1" as="geometry" />
@@ -509,7 +509,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Rt6S2faH1RN6G7ZhlYwz-52" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Operator&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;apcif.cu_role_operator&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;ip_role_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=center;overflow=fill;html=1;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-49" y="625" width="287" height="103" as="geometry" />
+          <mxGeometry x="-49" y="625" width="226" height="103" as="geometry" />
         </mxCell>
         <mxCell id="3QyspIVEfWr9wQ4CHOmD-34" value="n :1&amp;nbsp;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.003;exitY=0.813;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rt6S2faH1RN6G7ZhlYwz-55" target="Rt6S2faH1RN6G7ZhlYwz-49">
           <mxGeometry x="0.1031" y="-2" relative="1" as="geometry">
@@ -522,7 +522,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt6S2faH1RN6G7ZhlYwz-55" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Permission Role&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;apcif.cu_permission_role&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;permission_role_code（UUID）&lt;br&gt;permission_role_name&lt;br&gt;owner_target_type（IP_ROLE：shop）&lt;br&gt;owner_target_id&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=center;overflow=fill;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-51" y="880.5" width="291" height="115" as="geometry" />
+          <mxGeometry x="-51" y="880.5" width="232" height="115" as="geometry" />
         </mxCell>
         <mxCell id="Rt6S2faH1RN6G7ZhlYwz-58" value="1：n" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Rt6S2faH1RN6G7ZhlYwz-55">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -531,13 +531,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt6S2faH1RN6G7ZhlYwz-62" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Permission&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;fcbu.os_oprn&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;id&lt;br&gt;opt_code&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=center;overflow=fill;html=1;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="28" y="1197" width="209" height="80" as="geometry" />
+          <mxGeometry x="-52" y="1197" width="236" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Rt6S2faH1RN6G7ZhlYwz-65" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeColor=#A9C4EB;" vertex="1" parent="1">
           <mxGeometry x="-448" y="621" width="20" height="339" as="geometry" />
         </mxCell>
         <mxCell id="Rt6S2faH1RN6G7ZhlYwz-66" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Operator and Permission Role Relationship&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;apcif.cu_permission_auth_relation&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;auth_target_type（IP_ROLE:operator）&lt;br&gt;auth_target_id&lt;br&gt;permission_target_type (PERMISSION_ROLE)&lt;br&gt;permission_target_id（permission_role_code）&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=center;overflow=fill;html=1;fillColor=#eeeeee;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="284" y="786" width="278" height="117.5" as="geometry" />
+          <mxGeometry x="220" y="788" width="278" height="117.5" as="geometry" />
         </mxCell>
         <mxCell id="Rt6S2faH1RN6G7ZhlYwz-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rt6S2faH1RN6G7ZhlYwz-52" target="Rt6S2faH1RN6G7ZhlYwz-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -551,15 +551,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt6S2faH1RN6G7ZhlYwz-69" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;strokeColor=#A9C4EB;" vertex="1" parent="1">
-          <mxGeometry x="249" y="989" width="20" height="219" as="geometry" />
+          <mxGeometry x="185" y="991" width="20" height="219" as="geometry" />
         </mxCell>
         <mxCell id="Rt6S2faH1RN6G7ZhlYwz-70" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;strokeColor=#A9C4EB;" vertex="1" parent="1">
-          <mxGeometry x="249" y="704" width="20" height="220" as="geometry" />
+          <mxGeometry x="185" y="706" width="20" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Rt6S2faH1RN6G7ZhlYwz-78" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.006;entryY=0.676;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Rt6S2faH1RN6G7ZhlYwz-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="676" as="sourcePoint" />
-            <mxPoint x="344" y="566" as="targetPoint" />
+            <mxPoint x="176" y="678" as="sourcePoint" />
+            <mxPoint x="280" y="568" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Rt6S2faH1RN6G7ZhlYwz-79" value="1：n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rt6S2faH1RN6G7ZhlYwz-78">
@@ -568,7 +568,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3QyspIVEfWr9wQ4CHOmD-11" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Permision Role and Permision Relationship&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;apcif.cu_rel_permission_role&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;permission_role_code&lt;br&gt;permission_code&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=center;overflow=fill;html=1;fillColor=#eeeeee;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="284" y="1039.75" width="279" height="99.25" as="geometry" />
+          <mxGeometry x="220" y="1041.75" width="279" height="99.25" as="geometry" />
         </mxCell>
         <mxCell id="3QyspIVEfWr9wQ4CHOmD-12" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Permision Role and Shop Relationship&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;apcif.cu_permission_auth_relation&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;auth_target_type（PERMISION_ROLE）&lt;br&gt;auth_target_id（permission_role_code）&lt;br&gt;permission_target_type (SHOP)&lt;br&gt;permission_target_id (shop)&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=center;overflow=fill;html=1;fillColor=#eeeeee;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-384" y="1036" width="291" height="117.5" as="geometry" />
@@ -586,15 +586,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3QyspIVEfWr9wQ4CHOmD-20" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;URL&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;fcbu.os_apl_rsc&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;id&lt;br&gt;uri&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=center;overflow=fill;html=1;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="27" y="1331" width="210" height="78" as="geometry" />
+          <mxGeometry x="-52" y="1331" width="235" height="78" as="geometry" />
         </mxCell>
         <mxCell id="3QyspIVEfWr9wQ4CHOmD-21" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Permission and URL Relationship&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;fcbu.os_rsc_oprn&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;opt_code&lt;br&gt;rsc_id&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=center;overflow=fill;html=1;fillColor=#f5f5f5;strokeColor=none;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="287" y="1251" width="281" height="78" as="geometry" />
+          <mxGeometry x="223" y="1253" width="281" height="78" as="geometry" />
         </mxCell>
         <mxCell id="3QyspIVEfWr9wQ4CHOmD-23" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;strokeColor=#A9C4EB;" vertex="1" parent="1">
-          <mxGeometry x="252" y="1246" width="20" height="120" as="geometry" />
+          <mxGeometry x="188" y="1248" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3QyspIVEfWr9wQ4CHOmD-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.321;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Rt6S2faH1RN6G7ZhlYwz-55" target="Rt6S2faH1RN6G7ZhlYwz-62">
+        <mxCell id="3QyspIVEfWr9wQ4CHOmD-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Rt6S2faH1RN6G7ZhlYwz-55" target="Rt6S2faH1RN6G7ZhlYwz-62">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="94.5" y="995.5" as="sourcePoint" />
             <mxPoint x="95" y="1106" as="targetPoint" />
@@ -605,25 +605,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3QyspIVEfWr9wQ4CHOmD-33" value="1 : 1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.287;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Rt6S2faH1RN6G7ZhlYwz-62">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="87.98300000000017" y="1277" as="sourcePoint" />
-            <mxPoint x="88" y="1334" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="3QyspIVEfWr9wQ4CHOmD-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="91" y="1414" as="targetPoint" />
-            <mxPoint x="91" y="1455" as="sourcePoint" />
+            <mxPoint x="68" y="1414" as="targetPoint" />
+            <mxPoint x="68" y="1455" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3QyspIVEfWr9wQ4CHOmD-38" value="1 : 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3QyspIVEfWr9wQ4CHOmD-37">
           <mxGeometry x="-0.534" y="2" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
+            <mxPoint y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3QyspIVEfWr9wQ4CHOmD-36" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Menu&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;fcbu.os_menu&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;nm&lt;br&gt;app_name（merchantPortal）&lt;br&gt;code ( rsc_id)&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=center;overflow=fill;html=1;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="28" y="1463" width="210" height="95" as="geometry" />
+          <mxGeometry x="-53" y="1463" width="240" height="95" as="geometry" />
         </mxCell>
         <mxCell id="pGexDTaWi78THyk2sIxy-4" value="fcbu DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-722" y="1180" width="60" height="30" as="geometry" />
@@ -654,11 +648,17 @@
         <mxCell id="pnN4z2Zhbgd2DGGdkelh-9" value="n :1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=11;rotation=45;" vertex="1" parent="1">
           <mxGeometry x="-314" y="842.5" width="48" height="38" as="geometry" />
         </mxCell>
+        <mxCell id="rxr_dsKltxLxA3bM_rL3-1" value="1 : 1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rt6S2faH1RN6G7ZhlYwz-62" target="3QyspIVEfWr9wQ4CHOmD-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="87.98300000000017" y="1277" as="sourcePoint" />
+            <mxPoint x="88" y="1334" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="LNmjJ6u3vqqzivQq6MCm" name="安全">
-    <mxGraphModel dx="2940" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -821,7 +821,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SXRkbdkbbXnseFNhn1uf" name="模型关系">
-    <mxGraphModel dx="1968" dy="1028" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1968" dy="1095" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -905,7 +905,7 @@
         <mxCell id="y4iZZHrDdFdGeVA8TtzW-44" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#CCCCCC;" vertex="1" parent="_QpApc1dN7EaAGKn5_Wf-3">
           <mxGeometry x="76.5" y="315" width="477" height="186" as="geometry" />
         </mxCell>
-        <mxCell id="y4iZZHrDdFdGeVA8TtzW-45" value="企业组织(Devision ID)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="_QpApc1dN7EaAGKn5_Wf-3">
+        <mxCell id="y4iZZHrDdFdGeVA8TtzW-45" value="区域&lt;br&gt;(Devision ID)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="_QpApc1dN7EaAGKn5_Wf-3">
           <mxGeometry x="270" y="336" width="90" height="47.68" as="geometry" />
         </mxCell>
         <mxCell id="y4iZZHrDdFdGeVA8TtzW-46" value="" style="endArrow=none;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" edge="1" parent="_QpApc1dN7EaAGKn5_Wf-3" source="y4iZZHrDdFdGeVA8TtzW-45" target="y4iZZHrDdFdGeVA8TtzW-37">
@@ -976,7 +976,7 @@
         <mxCell id="_QpApc1dN7EaAGKn5_Wf-6" value="个人&lt;br&gt;（IP ID）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="_QpApc1dN7EaAGKn5_Wf-3">
           <mxGeometry x="128.5" y="76" width="90" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="y4iZZHrDdFdGeVA8TtzW-63" value="企业组织&lt;br&gt;(Devision ID)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="_QpApc1dN7EaAGKn5_Wf-3">
+        <mxCell id="y4iZZHrDdFdGeVA8TtzW-63" value="区域&lt;br&gt;(Devision ID)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="_QpApc1dN7EaAGKn5_Wf-3">
           <mxGeometry x="270" y="435.99999999999994" width="90" height="47.68" as="geometry" />
         </mxCell>
         <mxCell id="fxTmhlf9fXBPRlHkfyPq-1" value="门店&lt;br&gt;(Shop ID)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="_QpApc1dN7EaAGKn5_Wf-3">
