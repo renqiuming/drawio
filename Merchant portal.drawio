@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T12:03:39.780Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="QZMtrAcW1NBQJnmlP1hy" version="20.5.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-14T08:45:38.258Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ZGRTaLFm6ByIq7H4AS__" version="20.5.3" type="github" pages="5">
   <diagram id="l6IjyZo5fdcpN0Skcl8L" name="架构图">
-    <mxGraphModel dx="2066" dy="1131" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="655" dy="422" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="rkK-6fbYLkU5QcOMkByf-6" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#A9C4EB;" parent="1" vertex="1">
           <mxGeometry x="55" y="194" width="781" height="332" as="geometry" />
         </mxCell>
-        <mxCell id="gUw__0QMvd1f6hiJ85dU-83" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Restful api server application&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="gUw__0QMvd1f6hiJ85dU-83" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Http api server application&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="138.25" y="194" width="543.75" height="331" as="geometry" />
         </mxCell>
         <mxCell id="gUw__0QMvd1f6hiJ85dU-7" value="Merchant&amp;nbsp;APP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=none;" parent="1" vertex="1">
@@ -257,7 +257,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NJrbrJyJQJAPIaUyY62x" name="网络拓扑">
-    <mxGraphModel dx="1266" dy="1531" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1478" dy="1565" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -527,7 +527,7 @@
             <mxPoint x="-236" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3DSZTWo7XdYeBDLHEdy7-22" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Web Page：https://xxx/web/&lt;/font&gt;merchant-portal/&lt;br&gt;Web API：&amp;nbsp; &amp;nbsp;https://xxx/webapi/{domainName}/merchant-portal/" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="3DSZTWo7XdYeBDLHEdy7-22" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Web Page：https://xxx/web/&lt;/font&gt;merchant-portal/&lt;br&gt;Web API：&amp;nbsp; &amp;nbsp;https://xxx/webapi/&lt;span style=&quot;background-color: initial;&quot;&gt;{domainPath}&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/merchant-portal/&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="2581" y="47.99" width="406" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3DSZTWo7XdYeBDLHEdy7-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3DSZTWo7XdYeBDLHEdy7-25" target="3DSZTWo7XdYeBDLHEdy7-35">
@@ -578,7 +578,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SXRkbdkbbXnseFNhn1uf" name="模型关系">
-    <mxGraphModel dx="2866" dy="1531" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3648" dy="1856" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -615,7 +615,7 @@
             <mxPoint x="-505" y="137" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_QpApc1dN7EaAGKn5_Wf-2" value="钱包用户在钱包APP做个人商户KYB（商户有运营需求）" style="swimlane;labelBackgroundColor=none;strokeColor=default;fontSize=11;fillColor=default;gradientColor=none;" parent="1" vertex="1">
+        <mxCell id="_QpApc1dN7EaAGKn5_Wf-2" value="钱包用户在钱包APP做个人商户KYB（商户无运营需求）" style="swimlane;labelBackgroundColor=none;strokeColor=default;fontSize=11;fillColor=default;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="-670" y="-11" width="461" height="735" as="geometry" />
         </mxCell>
         <mxCell id="y4iZZHrDdFdGeVA8TtzW-25" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#CCCCCC;" parent="_QpApc1dN7EaAGKn5_Wf-2" vertex="1">
@@ -788,7 +788,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Nk7W8kdHPDKT0B_NWfbK" name="模型">
-    <mxGraphModel dx="2975" dy="731" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3331" dy="894" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -872,7 +872,7 @@
         <mxCell id="Rt6S2faH1RN6G7ZhlYwz-52" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Operator&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;apcif.cu_role_operator&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;ip_role_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=center;overflow=fill;html=1;fillColor=#fff2cc;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="-48" y="626" width="226" height="103" as="geometry" />
         </mxCell>
-        <mxCell id="Rt6S2faH1RN6G7ZhlYwz-55" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Permission Role&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;apcif.cu_permission_role&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;permission_role_code（UUID）&lt;br&gt;permission_role_name&lt;br&gt;owner_target_type（IP_ROLE：shop）&lt;br&gt;owner_target_id&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=center;overflow=fill;html=1;fillColor=#dae8fc;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="Rt6S2faH1RN6G7ZhlYwz-55" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Permission Role&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;apcif.cu_permission_role&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;permission_role_code（UUID）&lt;br&gt;permission_role_name&lt;br&gt;owner_target_type（IP_ROLE：Mid）&lt;br&gt;owner_target_id&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=center;overflow=fill;html=1;fillColor=#dae8fc;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="-51" y="880.5" width="232" height="115" as="geometry" />
         </mxCell>
         <mxCell id="Rt6S2faH1RN6G7ZhlYwz-58" value="1：n" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" target="Rt6S2faH1RN6G7ZhlYwz-55" edge="1">
@@ -1006,7 +1006,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LNmjJ6u3vqqzivQq6MCm" name="安全">
-    <mxGraphModel dx="2866" dy="1131" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3078" dy="1165" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1139,8 +1139,8 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lqxpO80e3iQjQoDeOsFm-20" value="12.如果查商家数据：根据登录用户的商家ID查询商家所有数据&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;如果查询门店数据：根据校验权限通过的门店ID查询门店数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#7EA6E0;verticalAlign=top;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-189.75" y="439.05" width="421.75" height="46" as="geometry" />
+        <mxCell id="lqxpO80e3iQjQoDeOsFm-20" value="12.如果查商家所有数据：根据登录用户的商家ID查询商家所有数据&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;如果查询门店数据：根据校验权限通过的门店ID查询门店数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#7EA6E0;verticalAlign=top;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-189.75" y="439.05" width="421.75" height="53.95" as="geometry" />
         </mxCell>
         <mxCell id="lqxpO80e3iQjQoDeOsFm-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.39;exitY=0.032;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.171;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1148,16 +1148,16 @@
             <mxPoint x="146.995" y="378.88000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lqxpO80e3iQjQoDeOsFm-25" value="&lt;span style=&quot;font-size: 12px; text-align: left;&quot;&gt;11.校验操作员商家、门店数据权限&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="lqxpO80e3iQjQoDeOsFm-24" vertex="1" connectable="0">
+        <mxCell id="lqxpO80e3iQjQoDeOsFm-25" value="&lt;span style=&quot;font-size: 12px; text-align: left;&quot;&gt;11.校验操作员商家数据、门店数据权限&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="lqxpO80e3iQjQoDeOsFm-24" vertex="1" connectable="0">
           <mxGeometry x="-0.1106" y="-2" relative="1" as="geometry">
-            <mxPoint x="-1" as="offset" />
+            <mxPoint x="-9" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lqxpO80e3iQjQoDeOsFm-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lqxpO80e3iQjQoDeOsFm-11" target="lqxpO80e3iQjQoDeOsFm-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lqxpO80e3iQjQoDeOsFm-27" value="8.选择门店筛选数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FFB570;" parent="1" vertex="1">
-          <mxGeometry x="-515" y="299.71" width="118.5" height="21.17" as="geometry" />
+        <mxCell id="lqxpO80e3iQjQoDeOsFm-27" value="8.查询商家所有数据或选择门店筛选数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FFB570;" parent="1" vertex="1">
+          <mxGeometry x="-513" y="294" width="118.5" height="35.29" as="geometry" />
         </mxCell>
         <mxCell id="lqxpO80e3iQjQoDeOsFm-30" value="&lt;br&gt;Session 包含内容：&lt;br&gt;1.登录operator账号信息&lt;br&gt;2.账号所属商家ID&lt;br&gt;3.账号功能权限列表&lt;br&gt;4.账号商家数据权限列表&lt;br&gt;5.账号门店数据权限列表" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;strokeColor=#B9E0A5;fillColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="269" y="152" width="159" height="118" as="geometry" />
