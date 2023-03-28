@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-04T07:10:25.874Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="s8FybXCHPai5iR-nONda" version="20.5.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-28T08:56:25.866Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="mxj3_r-ysPWJr7YlFwhU" version="21.1.1" type="github" pages="6">
   <diagram id="l6IjyZo5fdcpN0Skcl8L" name="架构图">
-    <mxGraphModel dx="2066" dy="1131" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="929" dy="593" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1164,6 +1164,47 @@
         </mxCell>
         <mxCell id="lqxpO80e3iQjQoDeOsFm-33" value="密码错误5次冻结账户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#7EA6E0;" parent="1" vertex="1">
           <mxGeometry x="105.75" y="110.83" width="118.5" height="21.17" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="26XWVQB7tScbaaJB0DPc" name="第 6 页">
+    <mxGraphModel dx="1013" dy="593" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5wp8iEedxT9ctZ72oGcR-4" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Http api server applications&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="138.25" y="194" width="543.75" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="5wp8iEedxT9ctZ72oGcR-17" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;Merchant &lt;br&gt;Operator&lt;/font&gt;" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="536" y="67" width="71.5" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="5wp8iEedxT9ctZ72oGcR-19" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;Wallet&lt;br&gt;Operator&lt;/font&gt;" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="214" y="65" width="71.5" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="5wp8iEedxT9ctZ72oGcR-22" value="Common Rpc Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="135" y="381" width="547" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="5wp8iEedxT9ctZ72oGcR-27" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Unify I&lt;/span&gt;nterceptor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=none;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="147.25" y="225" width="524" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="5wp8iEedxT9ctZ72oGcR-35" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="378.75" y="171" width="61" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="5wp8iEedxT9ctZ72oGcR-58" value="check login status" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="153.25" y="249" width="111" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5wp8iEedxT9ctZ72oGcR-59" value="check permission" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="267.25" y="250" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5wp8iEedxT9ctZ72oGcR-78" value="&lt;div style=&quot;&quot;&gt;Merchant Portal Static Page&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="458" y="125" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5wp8iEedxT9ctZ72oGcR-79" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="383" y="347" width="61" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="G9pSGa5Qa9134ED0zU4P-1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: initial;&quot;&gt;Back Office Static Page&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="137" y="125" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
